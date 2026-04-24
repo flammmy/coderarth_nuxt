@@ -1,6 +1,6 @@
 <template>
   <section class="hero">
-    <div class="grid-bg"></div>
+    <div class="grid-bg"><img src='/images/hero_bg.jpg' alt='Background Image' /></div>
 
     <div class="container-fluid px-0 w-100">
       <div class="row g-0 align-items-center">
@@ -13,20 +13,21 @@
             </div>
 
             <h1 class="hero-headline">
-              Build Websites That<br />
-              <span class="highlight">Convert, Scale</span><br />
-              &amp; Impress.
+              Build. Grow. Scale
+              <br />
+              <span class="highlight">- With CodersArth Technologies</span><br />
             </h1>
 
             <p class="hero-sub">
-              NexaWeb delivers high-performance web solutions — from stunning
-              design to enterprise integrations — helping ambitious brands
-              grow faster in a digital-first world.
+              From startups to established brands, we turn your ideas into high-performing digital experiences that
+              drive visibility, engagement, and measurable growth. We help businesses grow through Web Development,
+              Digital Marketing, App Development, Custom CRM solutions, and Free Consulting.
+
             </p>
 
             <div class="hero-actions">
               <a href="#" class="btn-hero-primary">
-                Get a Free Proposal
+                Get Free Consultation
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
@@ -255,7 +256,8 @@
       </div>
 
       <h1 style="position: relative; z-index: 2; margin-top: 20px">
-        Services Built to <span class="accent">Grow Your Business</span>
+        End-to-End Digital Solutions
+        <span class="accent"> Under One Roof</span>
       </h1>
 
       <p style="
@@ -264,8 +266,7 @@
             max-width: 600px;
             margin: 20px auto;
           ">
-        From idea to launch and beyond — we deliver web, mobile, and
-        AI-powered solutions tailored to your goals.
+        We provide end-to-end digital solutions to help your business grow, streamline operations, and build a strong online presence. Our services are designed to support startups, small businesses, and growing brands with scalable and result-driven technology.
       </p>
 
       <div class="hero-btns" style="position: relative; z-index: 2">
@@ -343,15 +344,14 @@
 
         <div class="scroll-section">
           <button class="scroll-btn left"
-            onclick="document.getElementById('svcRow').scrollBy({left:-270,behavior:'smooth'})">&#8249;</button>
+            onclick="document.getElementById('svcRow').scrollBy({left:-270,behavior:'smooth'})"><span>&#8249;</span></button>
 
           <div id="svcRow" class="svc-scroll-row">
             <div class="svc-card">
               <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
               <div class="svc-card-divider"></div>
               <h3 class="svc-card-title">Web Development</h3>
-              <p class="svc-card-desc">Modern, scalable, high-performance websites and web apps with responsive design
-                and SEO optimization.</p>
+              <p class="svc-card-desc">We build fast, responsive, and user-friendly websites tailored to your business needs. From business websites to custom platforms, we focus on performance, design, and scalability.</p>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Stack</div>
@@ -365,12 +365,24 @@
               <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
               <div class="svc-card-divider"></div>
               <h3 class="svc-card-title">Mobile App Dev</h3>
-              <p class="svc-card-desc">High-quality Android and iOS apps with seamless performance and robust backend
-                integration.</p>
+              <p class="svc-card-desc">We develop modern, scalable mobile and web applications that improve user experience and support business growth. Our apps are built for performance, usability, and long-term success.</p>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Stack</div>
                   <div class="svc-card-stack-value">Flutter, React Native</div>
+                </div>
+                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+              </div>
+            </div>
+            <div class="svc-card">
+              <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+              <div class="svc-card-divider"></div>
+              <h3 class="svc-card-title">Digital Marketing & Social Media</h3>
+              <p class="svc-card-desc">Grow your online visibility with strategic digital marketing and social media management. We help you reach the right audience, increase engagement, and generate quality leads.</p>
+              <div class="svc-card-footer">
+                <div>
+                  <div class="svc-card-stack-label">Specialties</div>
+                  <div class="svc-card-stack-value">SEO, SEM, Social Media, Analytics</div>
                 </div>
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
@@ -390,6 +402,7 @@
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
             </div>
+            
 
             <div class="svc-card">
               <div class="svc-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
@@ -424,9 +437,8 @@
             <div class="svc-card">
               <div class="svc-card-icon"><i class="fa-solid fa-users"></i></div>
               <div class="svc-card-divider"></div>
-              <h3 class="svc-card-title">CRM Development</h3>
-              <p class="svc-card-desc">Customer relationship management systems to track leads, manage interactions, and
-                boost sales.</p>
+              <h3 class="svc-card-title">Custom CRM</h3>
+              <p class="svc-card-desc">Streamline your business operations with a custom CRM built specifically for your workflow. Manage leads, clients, sales, and team activities efficiently in one place.</p>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Features</div>
@@ -468,20 +480,18 @@
           </div>
 
           <button class="scroll-btn right"
-            onclick="document.getElementById('svcRow').scrollBy({left:270,behavior:'smooth'})">&#8250;</button>
+            onclick="document.getElementById('svcRow').scrollBy({left:270,behavior:'smooth'})"><span>&#8250;</span></button>
         </div>
 
       </div>
     </section>
 
-    <!-- ══ ENTERPRISE SOLUTIONS ══ -->
+    <!-- ══ ENTERPRISE SOLUTIONS ══ 
     <section class="py-5 px-3 px-md-4 px-xl-5">
       <div class="container-fluid px-lg-4">
 
-        <!-- HEADER ROW -->
         <div class="row align-items-center g-4 mb-4">
 
-          <!-- Left: Visual -->
           <div class="col-12 col-md-6 order-md-1">
             <div class="ent-header-visual">
               <div class="hdr-badge-tl">
@@ -498,7 +508,6 @@
             </div>
           </div>
 
-          <!-- Right: Text -->
           <div class="col-12 col-md-6 order-md-2 d-flex flex-column gap-4">
             <div class="section-pill-enterprise">Enterprise</div>
             <h2 class="ent-heading">Built for <span class="accent">Enterprise</span></h2>
@@ -530,22 +539,18 @@
             </div>
           </div>
 
-        </div><!-- /row -->
+        </div>
 
-        <!-- DIVIDER -->
         <div class="ent-divider"><span>Our enterprise solutions</span></div>
 
-        <!-- BENTO GRID -->
         <div class="row g-3 align-items-start">
 
-          <!-- LEFT COL (narrower) -->
           <div class="col-12 col-lg-5 col-xl-4 d-flex flex-column gap-3">
 
             <div class="left-header-img">
               <img src="/images/ent-first.jpg" alt="Enterprise first" />
             </div>
 
-            <!-- Dark ERP card -->
             <div class="bc bc-dark">
               <span class="bc-label">02 — Backend</span>
               <div class="img-zone">
@@ -569,10 +574,8 @@
 
           </div>
 
-          <!-- RIGHT COL (wider) -->
           <div class="col-12 col-lg-7 col-xl-8 d-flex flex-column gap-3">
 
-            <!-- Hero card -->
             <div class="bc bc-hero">
               <div class="bc-hero-img">
                 <i class="fa-regular fa-image"></i>
@@ -609,7 +612,6 @@
               </div>
             </div>
 
-            <!-- Small row — 3 cards -->
             <div class="row g-3">
 
               <div class="col-12 col-sm-6 col-xl-4">
@@ -689,123 +691,225 @@
                 </div>
               </div>
 
-            </div><!-- /small row -->
-          </div><!-- /right col -->
-        </div><!-- /bento row -->
+            </div>
+          </div>
+        </div>
 
       </div>
-    </section>
+    </section>-->
 
     <!-- ══ TECH STACK ══ -->
     <section class="section section-alt section-center">
-      
+
       <div class="section-pill">Tech Stack</div>
+
       <h2 class="section-title">
         Built With the <span class="accent">Best Tools</span>
       </h2>
+
       <p class="section-sub">
-        We use battle-tested, modern technologies to build products that last.
+        We use battle-tested, modern technologies to build scalable products that last.
       </p>
 
-      <div class="tech-grid">
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="2.5" fill="#61DAFB" />
-              <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2z" stroke="#61DAFB"
-                stroke-width="1.2" fill="none" />
-              <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" stroke-width="1.2" fill="none" />
-              <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" stroke-width="1.2" fill="none"
-                transform="rotate(60 12 12)" />
-              <ellipse cx="12" cy="12" rx="10" ry="4" stroke="#61DAFB" stroke-width="1.2" fill="none"
-                transform="rotate(120 12 12)" />
-            </svg>
-          </div>
-          <span class="tc-name">React</span>
-          <span class="tc-tag">Frontend</span>
-        </div>
+      <!-- FRONTEND -->
+      <div class="tech-category">
+        <h3 class="tech-category-title">Frontend Technologies</h3>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <path d="M12 2L2 19.5h20L12 2z" fill="#0f172a" />
-              <path d="M12 8v5M12 15.5v1" stroke="white" stroke-width="1.5" stroke-linecap="round" />
-            </svg>
-          </div>
-          <span class="tc-name">Next.js</span>
-          <span class="tc-tag">Framework</span>
-        </div>
+        <div class="tech-grid">
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="10" fill="#3c873a" />
-              <path d="M8 15c0 1.1.9 2 2 2h4c1.1 0 2-.9 2-2v-2c0-1.1-.9-2-2-2h-2V9h4" stroke="white" stroke-width="1.4"
-                stroke-linecap="round" fill="none" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">React</span>
+            <span class="tc-tag">Frontend</span>
           </div>
-          <span class="tc-name">Node.js</span>
-          <span class="tc-tag">Backend</span>
-        </div>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="3" fill="#3572A5" />
-              <path d="M8 17V9l4 5 4-5v8" stroke="white" stroke-width="1.4" stroke-linecap="round"
-                stroke-linejoin="round" fill="none" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">Next.js</span>
+            <span class="tc-tag">Framework</span>
           </div>
-          <span class="tc-name">Python</span>
-          <span class="tc-tag">AI / Backend</span>
-        </div>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="10" fill="#54C5F8" />
-              <path d="M9 17l3-5 3 5M7 9h10" stroke="white" stroke-width="1.4" stroke-linecap="round"
-                stroke-linejoin="round" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">Vue.js</span>
+            <span class="tc-tag">Frontend</span>
           </div>
-          <span class="tc-name">Flutter</span>
-          <span class="tc-tag">Mobile</span>
-        </div>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <circle cx="12" cy="12" r="10" fill="#61DAFB" fill-opacity="0.15" />
-              <rect x="7" y="6" width="4" height="12" rx="1" fill="#61DAFB" />
-              <rect x="13" y="6" width="4" height="12" rx="1" fill="#20232a" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">Angular</span>
+            <span class="tc-tag">Frontend</span>
           </div>
-          <span class="tc-name">React Native</span>
-          <span class="tc-tag">Mobile</span>
-        </div>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="4" fill="#10a37f" />
-              <path d="M8 16l4-8 4 8M9.5 13h5" stroke="white" stroke-width="1.4" stroke-linecap="round" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">HTML5</span>
+            <span class="tc-tag">Markup</span>
           </div>
-          <span class="tc-name">OpenAI / GPT</span>
-          <span class="tc-tag">AI</span>
-        </div>
 
-        <div class="tech-chip">
-          <div class="tc-icon-wrap">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-              <rect x="3" y="3" width="18" height="18" rx="3" fill="#336791" />
-              <path d="M8 8h8v2H8zM8 12h6v2H8zM8 16h4" stroke="white" stroke-width="1.3" stroke-linecap="round" />
-            </svg>
+          <div class="tech-chip">
+            <span class="tc-name">CSS3</span>
+            <span class="tc-tag">Styling</span>
           </div>
-          <span class="tc-name">PostgreSQL</span>
-          <span class="tc-tag">Database</span>
+
+          <div class="tech-chip">
+            <span class="tc-name">JavaScript</span>
+            <span class="tc-tag">Frontend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">TypeScript</span>
+            <span class="tc-tag">Frontend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Tailwind CSS</span>
+            <span class="tc-tag">UI</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Bootstrap</span>
+            <span class="tc-tag">UI</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Flutter</span>
+            <span class="tc-tag">Mobile</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">React Native</span>
+            <span class="tc-tag">Mobile</span>
+          </div>
+
         </div>
       </div>
+
+
+      <!-- BACKEND -->
+      <div class="tech-category">
+        <h3 class="tech-category-title">Backend Technologies</h3>
+
+        <div class="tech-grid">
+
+          <div class="tech-chip">
+            <span class="tc-name">Node.js</span>
+            <span class="tc-tag">Backend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Express.js</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Python</span>
+            <span class="tc-tag">Backend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Django</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">FastAPI</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">PHP</span>
+            <span class="tc-tag">Backend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Laravel</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">CodeIgniter</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Java</span>
+            <span class="tc-tag">Backend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Spring Boot</span>
+            <span class="tc-tag">Framework</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Golang</span>
+            <span class="tc-tag">Backend</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Kafka</span>
+            <span class="tc-tag">Event Stream</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">OpenAI / GPT</span>
+            <span class="tc-tag">AI</span>
+          </div>
+
+        </div>
+      </div>
+
+
+      <!-- DATABASE -->
+      <div class="tech-category">
+        <h3 class="tech-category-title">Database Technologies</h3>
+
+        <div class="tech-grid">
+
+          <div class="tech-chip">
+            <span class="tc-name">PostgreSQL</span>
+            <span class="tc-tag">Database</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">MySQL</span>
+            <span class="tc-tag">Database</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">SQLite</span>
+            <span class="tc-tag">Database</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">SQL Server</span>
+            <span class="tc-tag">Database</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">MongoDB</span>
+            <span class="tc-tag">NoSQL</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Cassandra</span>
+            <span class="tc-tag">NoSQL</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Redis</span>
+            <span class="tc-tag">Cache DB</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">ClickHouse</span>
+            <span class="tc-tag">Analytics DB</span>
+          </div>
+
+          <div class="tech-chip">
+            <span class="tc-name">Elasticsearch</span>
+            <span class="tc-tag">Search DB</span>
+          </div>
+
+        </div>
+      </div>
+
     </section>
 
     <!-- ══ CTA BANNER ══ -->
