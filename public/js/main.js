@@ -69,3 +69,7 @@ document.querySelectorAll(".pw-filter").forEach(function (btn) {
     this.classList.add("pw-active");
   });
 });
+
+function scrollTechRow(id, amount) {
+  document.getElementById(id).scrollBy({ left: amount, behavior: "smooth" });
+}

@@ -266,7 +266,9 @@
             max-width: 600px;
             margin: 20px auto;
           ">
-        We provide end-to-end digital solutions to help your business grow, streamline operations, and build a strong online presence. Our services are designed to support startups, small businesses, and growing brands with scalable and result-driven technology.
+        We provide end-to-end digital solutions to help your business grow, streamline operations, and build a strong
+        online presence. Our services are designed to support startups, small businesses, and growing brands with
+        scalable and result-driven technology.
       </p>
 
       <div class="hero-btns" style="position: relative; z-index: 2">
@@ -347,11 +349,22 @@
             onclick="document.getElementById('svcRow').scrollBy({left:-270,behavior:'smooth'})"><span>&#8249;</span></button>
 
           <div id="svcRow" class="svc-scroll-row">
+
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Web Development</h3>
-              <p class="svc-card-desc">We build fast, responsive, and user-friendly websites tailored to your business needs. From business websites to custom platforms, we focus on performance, design, and scalability.</p>
+              <p class="svc-card-desc">We build fast, responsive, and user-friendly websites tailored to your business
+                needs. From business websites to custom platforms, we focus on performance, design, and scalability.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>React</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>PHP</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>JavaScript</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Stack</div>
@@ -362,10 +375,20 @@
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Mobile App Dev</h3>
-              <p class="svc-card-desc">We develop modern, scalable mobile and web applications that improve user experience and support business growth. Our apps are built for performance, usability, and long-term success.</p>
+              <p class="svc-card-desc">We develop modern, scalable mobile and web applications that improve user
+                experience and support business growth. Our apps are built for performance, usability, and long-term
+                success.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Flutter</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>React Native</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Stack</div>
@@ -374,26 +397,45 @@
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
             </div>
+
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Digital Marketing & Social Media</h3>
-              <p class="svc-card-desc">Grow your online visibility with strategic digital marketing and social media management. We help you reach the right audience, increase engagement, and generate quality leads.</p>
+              <p class="svc-card-desc">Grow your online visibility with strategic digital marketing and social media
+                management. We help you reach the right audience, increase engagement, and generate quality leads.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>SEO</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>SEM</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Analytics</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Specialties</div>
-                  <div class="svc-card-stack-value">SEO, SEM, Social Media, Analytics</div>
+                  <div class="svc-card-stack-value">SEO, SEM, Social Media</div>
                 </div>
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-database"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-database"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Database Management</h3>
               <p class="svc-card-desc">Efficient database design, optimization, and maintenance ensuring data security
                 and scalability.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>MySQL</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>PostgreSQL</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Technologies</div>
@@ -402,14 +444,22 @@
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
             </div>
-            
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Software Development</h3>
               <p class="svc-card-desc">Custom software solutions to streamline operations and meet unique business
                 requirements.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Java</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>.NET</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Python</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Stack</div>
@@ -420,11 +470,20 @@
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-gears"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-gears"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Custom ERP Solution</h3>
               <p class="svc-card-desc">Tailor-made ERP systems to integrate and automate core business processes like
                 finance, HR, and inventory.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>HR</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Finance</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Inventory</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Modules</div>
@@ -435,10 +494,19 @@
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-users"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-users"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Custom CRM</h3>
-              <p class="svc-card-desc">Streamline your business operations with a custom CRM built specifically for your workflow. Manage leads, clients, sales, and team activities efficiently in one place.</p>
+              <p class="svc-card-desc">Streamline your business operations with a custom CRM built specifically for your
+                workflow. Manage leads, clients, sales, and team activities efficiently in one place.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Lead Mgmt</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Automation</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Features</div>
@@ -449,11 +517,19 @@
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Website Designing</h3>
               <p class="svc-card-desc">Creative, user-friendly website designs focused on great user experience and
                 strong brand identity.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Figma</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Adobe XD</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Tools</div>
@@ -464,11 +540,19 @@
             </div>
 
             <div class="svc-card">
-              <div class="svc-card-icon"><i class="fa-solid fa-building"></i></div>
-              <div class="svc-card-divider"></div>
+              <div class="svc-card-accent-line"></div>
+              <div class="svc-card-top">
+                <div class="svc-card-icon"><i class="fa-solid fa-building"></i></div>
+                <span class="svc-card-badge">Service</span>
+              </div>
               <h3 class="svc-card-title">Enterprise Solutions</h3>
               <p class="svc-card-desc">Scalable enterprise-grade applications for complex workflows, large data volumes,
                 and organizational needs.</p>
+              <div class="svc-card-divider"></div>
+              <div class="svc-card-tags">
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Cloud</span>
+                <span class="svc-tag"><span class="svc-tag-dot"></span>Microservices</span>
+              </div>
               <div class="svc-card-footer">
                 <div>
                   <div class="svc-card-stack-label">Solutions</div>
@@ -477,6 +561,7 @@
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
             </div>
+
           </div>
 
           <button class="scroll-btn right"
@@ -713,200 +798,284 @@
 
       <!-- FRONTEND -->
       <div class="tech-category">
-        <h3 class="tech-category-title">Frontend Technologies</h3>
-
-        <div class="tech-grid">
-
-          <div class="tech-chip">
-            <span class="tc-name">React</span>
-            <span class="tc-tag">Frontend</span>
+        <div class="tech-category-header">
+          <h3 class="tech-category-title">Frontend Technologies</h3>
+          <div class="tech-scroll-btns">
+            <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', -260)">&#8249;</button>
+            <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', 260)">&#8250;</button>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Next.js</span>
-            <span class="tc-tag">Framework</span>
+        </div>
+        <div class="tech-scroll-section">
+          <div class="tech-scroll-row" id="frontend">
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Re</div>
+                <span class="tc-tag">Frontend</span>
+              </div>
+              <span class="tc-name">React</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Nx</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">Next.js</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Vu</div>
+                <span class="tc-tag">Frontend</span>
+              </div>
+              <span class="tc-name">Vue.js</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Ng</div>
+                <span class="tc-tag">Frontend</span>
+              </div>
+              <span class="tc-name">Angular</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">H5</div>
+                <span class="tc-tag">Markup</span>
+              </div>
+              <span class="tc-name">HTML5</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">C3</div>
+                <span class="tc-tag">Styling</span>
+              </div>
+              <span class="tc-name">CSS3</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">JS</div>
+                <span class="tc-tag">Frontend</span>
+              </div>
+              <span class="tc-name">JavaScript</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">TS</div>
+                <span class="tc-tag">Frontend</span>
+              </div>
+              <span class="tc-name">TypeScript</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Tw</div>
+                <span class="tc-tag">UI</span>
+              </div>
+              <span class="tc-name">Tailwind CSS</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Bs</div>
+                <span class="tc-tag">UI</span>
+              </div>
+              <span class="tc-name">Bootstrap</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Fl</div>
+                <span class="tc-tag">Mobile</span>
+              </div>
+              <span class="tc-name">Flutter</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">RN</div>
+                <span class="tc-tag">Mobile</span>
+              </div>
+              <span class="tc-name">React Native</span>
+            </div>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Vue.js</span>
-            <span class="tc-tag">Frontend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Angular</span>
-            <span class="tc-tag">Frontend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">HTML5</span>
-            <span class="tc-tag">Markup</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">CSS3</span>
-            <span class="tc-tag">Styling</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">JavaScript</span>
-            <span class="tc-tag">Frontend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">TypeScript</span>
-            <span class="tc-tag">Frontend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Tailwind CSS</span>
-            <span class="tc-tag">UI</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Bootstrap</span>
-            <span class="tc-tag">UI</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Flutter</span>
-            <span class="tc-tag">Mobile</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">React Native</span>
-            <span class="tc-tag">Mobile</span>
-          </div>
-
         </div>
       </div>
-
 
       <!-- BACKEND -->
       <div class="tech-category">
-        <h3 class="tech-category-title">Backend Technologies</h3>
-
-        <div class="tech-grid">
-
-          <div class="tech-chip">
-            <span class="tc-name">Node.js</span>
-            <span class="tc-tag">Backend</span>
+        <div class="tech-category-header">
+          <h3 class="tech-category-title">Backend Technologies</h3>
+          <div class="tech-scroll-btns">
+            <button class="tech-scroll-btn" onclick="scrollTechRow('backend', -260)">&#8249;</button>
+            <button class="tech-scroll-btn" onclick="scrollTechRow('backend', 260)">&#8250;</button>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Express.js</span>
-            <span class="tc-tag">Framework</span>
+        </div>
+        <div class="tech-scroll-section">
+          <div class="tech-scroll-row" id="backend">
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">No</div>
+                <span class="tc-tag">Backend</span>
+              </div>
+              <span class="tc-name">Node.js</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Ex</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">Express.js</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Py</div>
+                <span class="tc-tag">Backend</span>
+              </div>
+              <span class="tc-name">Python</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Dj</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">Django</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">FA</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">FastAPI</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Ph</div>
+                <span class="tc-tag">Backend</span>
+              </div>
+              <span class="tc-name">PHP</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Lv</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">Laravel</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">CI</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">CodeIgniter</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Jv</div>
+                <span class="tc-tag">Backend</span>
+              </div>
+              <span class="tc-name">Java</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">SB</div>
+                <span class="tc-tag">Framework</span>
+              </div>
+              <span class="tc-name">Spring Boot</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Go</div>
+                <span class="tc-tag">Backend</span>
+              </div>
+              <span class="tc-name">Golang</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Kf</div>
+                <span class="tc-tag">Event Stream</span>
+              </div>
+              <span class="tc-name">Kafka</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">AI</div>
+                <span class="tc-tag">AI</span>
+              </div>
+              <span class="tc-name">OpenAI / GPT</span>
+            </div>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Python</span>
-            <span class="tc-tag">Backend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Django</span>
-            <span class="tc-tag">Framework</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">FastAPI</span>
-            <span class="tc-tag">Framework</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">PHP</span>
-            <span class="tc-tag">Backend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Laravel</span>
-            <span class="tc-tag">Framework</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">CodeIgniter</span>
-            <span class="tc-tag">Framework</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Java</span>
-            <span class="tc-tag">Backend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Spring Boot</span>
-            <span class="tc-tag">Framework</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Golang</span>
-            <span class="tc-tag">Backend</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Kafka</span>
-            <span class="tc-tag">Event Stream</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">OpenAI / GPT</span>
-            <span class="tc-tag">AI</span>
-          </div>
-
         </div>
       </div>
 
-
       <!-- DATABASE -->
       <div class="tech-category">
-        <h3 class="tech-category-title">Database Technologies</h3>
-
-        <div class="tech-grid">
-
-          <div class="tech-chip">
-            <span class="tc-name">PostgreSQL</span>
-            <span class="tc-tag">Database</span>
+        <div class="tech-category-header">
+          <h3 class="tech-category-title">Database Technologies</h3>
+          <div class="tech-scroll-btns">
+            <button class="tech-scroll-btn" onclick="scrollTechRow('database', -260)">&#8249;</button>
+            <button class="tech-scroll-btn" onclick="scrollTechRow('database', 260)">&#8250;</button>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">MySQL</span>
-            <span class="tc-tag">Database</span>
+        </div>
+        <div class="tech-scroll-section">
+          <div class="tech-scroll-row" id="database">
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Pg</div>
+                <span class="tc-tag">Database</span>
+              </div>
+              <span class="tc-name">PostgreSQL</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">My</div>
+                <span class="tc-tag">Database</span>
+              </div>
+              <span class="tc-name">MySQL</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">SL</div>
+                <span class="tc-tag">Database</span>
+              </div>
+              <span class="tc-name">SQLite</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">SS</div>
+                <span class="tc-tag">Database</span>
+              </div>
+              <span class="tc-name">SQL Server</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Mg</div>
+                <span class="tc-tag">NoSQL</span>
+              </div>
+              <span class="tc-name">MongoDB</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Ca</div>
+                <span class="tc-tag">NoSQL</span>
+              </div>
+              <span class="tc-name">Cassandra</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Rd</div>
+                <span class="tc-tag">Cache DB</span>
+              </div>
+              <span class="tc-name">Redis</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">CH</div>
+                <span class="tc-tag">Analytics</span>
+              </div>
+              <span class="tc-name">ClickHouse</span>
+            </div>
+            <div class="tech-chip">
+              <div class="tech-chip-top">
+                <div class="tech-chip-icon">Es</div>
+                <span class="tc-tag">Search DB</span>
+              </div>
+              <span class="tc-name">Elasticsearch</span>
+            </div>
           </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">SQLite</span>
-            <span class="tc-tag">Database</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">SQL Server</span>
-            <span class="tc-tag">Database</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">MongoDB</span>
-            <span class="tc-tag">NoSQL</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Cassandra</span>
-            <span class="tc-tag">NoSQL</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Redis</span>
-            <span class="tc-tag">Cache DB</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">ClickHouse</span>
-            <span class="tc-tag">Analytics DB</span>
-          </div>
-
-          <div class="tech-chip">
-            <span class="tc-name">Elasticsearch</span>
-            <span class="tc-tag">Search DB</span>
-          </div>
-
         </div>
       </div>
 
