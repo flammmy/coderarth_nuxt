@@ -22,7 +22,9 @@
   --gray-800: #1e293b;
   --gray-900: #0f172a;
   --border: #dde6f5;
-  --border: #dde6f5;
+  --ink: #1a2952;
+  --gold: #c9a84c;
+  --gold-light: #f0d080;
   --radius-md: 8px;
   --radius-lg: 12px;
   --radius-xl: 22px;
@@ -40,21 +42,191 @@ body {
 }
 
 /* ── NAV ── */
-nav {
+
+/* ── Announcement Strip ── */
+.nav-wrapper {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 1000;
+  background: white;
+}
+
+.announcement-strip {
+  background: linear-gradient(90deg, #4f35c7, #6c52e8, #4f35c7);
+  color: #fff;
+  font-size: 13px;
+  padding: 9px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+}
+
+.strip-icon {
+  font-size: 14px;
+}
+
+.strip-text {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.strip-underline {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  cursor: pointer;
+}
+
+.strip-btn {
+  background: rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  color: #fff;
+  font-size: 12px;
+  padding: 4px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s;
+}
+
+.strip-btn:hover {
+  background: rgba(255, 255, 255, 0.28);
+}
+
+.strip-close {
+  position: absolute;
+  right: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.strip-close:hover {
+  color: #fff;
+}
+
+/* ── Nav Actions (right side buttons) ── */
+.nav-actions {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+}
+
+/* 24×7 Contact Button */
+.btn-contact {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 7px 14px 7px 8px;
+  border: 1.5px solid var(--gray-200);
+  border-radius: 10px;
+  background: #fff;
+  color: var(--gray-700);
+  text-decoration: none;
+  cursor: pointer;
+  transition:
+    border-color 0.18s,
+    background 0.18s;
+  white-space: nowrap;
+}
+
+.btn-contact:hover {
+  border-color: var(--blue);
+  background: var(--blue-pale);
+}
+
+.phone-icon {
+  width: 34px;
+  height: 34px;
+  background: var(--blue-pale);
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.phone-icon svg {
+  width: 15px;
+  height: 15px;
+  color: var(--blue);
+}
+
+.contact-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1.25;
+}
+
+.contact-label {
+  font-size: 10px;
+  color: var(--gray-400);
+  font-weight: 400;
+}
+
+.contact-num {
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--gray-900);
+}
+
+/* Get Free Consultancy Button — extends your existing .btn-primary */
+.btn-consult {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  padding: 9px 18px;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: white;
+  background: var(--blue);
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.2s;
+  box-shadow: 0 4px 14px rgba(26, 86, 219, 0.28);
+}
+
+.btn-consult svg {
+  width: 15px;
+  height: 15px;
+  flex-shrink: 0;
+}
+
+.btn-consult:hover {
+  background: #1447c0;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(26, 86, 219, 0.35);
+}
+
+nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
   height: 72px;
-  background: rgb(238 242 255 / 0%);
-  backdrop-filter: blur(20px);
+  /* background: rgb(238 242 255 / 0%); */
+  background: white;
+  max-width: 1380px;
+  margin: 0 auto;
+  /* backdrop-filter: blur(20px); */
   border-bottom: 1px solid rgba(26, 86, 219, 0.08);
 }
+
 
 .logo {
   display: flex;
@@ -339,6 +511,13 @@ nav {
   padding: 120px 5% 80px;
   position: relative;
   overflow: hidden;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1280px;
 }
 
 .hero::after {
@@ -1420,7 +1599,16 @@ nav {
   );
   pointer-events: none;
 }
+@media (min-width: 1100px) {
+  .page-hero {
+    max-height: 300px !important;
+  }
+}
 
+.service-header {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 .page-hero .pill {
   display: inline-flex;
   align-items: center;
@@ -1538,6 +1726,11 @@ nav {
 
 .section-center {
   text-align: center;
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .section-pill {
@@ -1880,8 +2073,8 @@ nav {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(0,0,0,0.07) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(0,0,0,0.07) 1px, transparent 1px);
+    linear-gradient(rgba(0, 0, 0, 0.07) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(0, 0, 0, 0.07) 1px, transparent 1px);
   background-size: 22px 22px;
   pointer-events: none;
 }
@@ -1981,7 +2174,9 @@ nav {
   font-size: 12px;
   font-weight: 500;
   color: var(--gray-700, #374151);
-  transition: border-color 0.2s, background 0.2s;
+  transition:
+    border-color 0.2s,
+    background 0.2s;
 }
 
 .svc-card:hover .svc-tag {
@@ -2853,7 +3048,10 @@ nav {
   justify-content: center;
   cursor: pointer;
   padding-bottom: 3px;
-  transition: background 0.2s, border-color 0.2s, color 0.2s;
+  transition:
+    background 0.2s,
+    border-color 0.2s,
+    color 0.2s;
 }
 
 .tech-scroll-btn:hover {
@@ -2907,7 +3105,8 @@ nav {
 .tech-chip::before {
   content: "";
   position: absolute;
-  top: 0; left: 0;
+  top: 0;
+  left: 0;
   height: 3px;
   width: 0;
   background: #07cc07;
@@ -2948,7 +3147,10 @@ nav {
   color: #059a05;
   letter-spacing: 0.03em;
   flex-shrink: 0;
-  transition: background 0.25s, color 0.25s, border-color 0.25s;
+  transition:
+    background 0.25s,
+    color 0.25s,
+    border-color 0.25s;
 }
 
 .tech-chip:hover .tech-chip-icon {
@@ -2996,6 +3198,8 @@ nav {
   flex-wrap: wrap;
   position: relative;
   overflow: hidden;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .cta-banner::before {
@@ -3675,6 +3879,8 @@ nav {
 
 .tba-fade-box {
   position: relative;
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .tba-fade-box::before,
@@ -4166,6 +4372,10 @@ nav {
     sans-serif;
 }
 
+.ft-container {
+  max-width: 1280px;
+  margin: 0 auto;
+}
 .ft-main {
   padding: 56px 48px 48px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.08);
@@ -4370,14 +4580,18 @@ nav {
   letter-spacing: 0.08em;
   margin-bottom: 2px;
 }
+.ft-bottom-container{
+  background: rgba(0, 0, 0, 0.2);
+}
 
 .ft-bottom {
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 18px 48px;
-  background: rgba(0, 0, 0, 0.2);
   flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 0 auto;
   gap: 12px;
 }
 
@@ -4406,7 +4620,8 @@ nav {
 
 .ft-legal a {
   font-size: 12px;
-  color: var(--gray-600);
+  color: var(--gray-400) !important;
+
   text-decoration: none;
   cursor: pointer;
   transition: color 0.2s;

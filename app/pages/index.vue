@@ -2,7 +2,7 @@
   <section class="hero">
     <div class="grid-bg"><img src='/images/hero_bg.jpg' alt='Background Image' /></div>
 
-    <div class="container-fluid px-0 w-100">
+    <div class="container-fluid px-0 w-100 hero-container">
       <div class="row g-0 align-items-center">
         <!-- LEFT COLUMN -->
         <div class="col-12 col-lg-6">
@@ -26,12 +26,12 @@
             </p>
 
             <div class="hero-actions">
-              <a href="#" class="btn-hero-primary">
+              <NuxtLink to="/contact" class="btn-hero-primary">
                 Get Free Consultation
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
                 </svg>
-              </a>
+              </NuxtLink>
               <a href="#" class="btn-hero-secondary">
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                   <circle cx="12" cy="12" r="10" />
@@ -242,7 +242,7 @@
           background-blend-mode: overlay;
           background-color: rgba(255, 255, 255, 0.4);
           width: 100%;
-          min-height: 80vh;
+          min-height: 60vh;
           display: flex;
           flex-direction: column;
           align-items: center;
@@ -251,34 +251,36 @@
           padding: 60px 20px;
           position: relative;
         ">
-      <div class="pill" style="position: relative; z-index: 2">
-        <span class="dot"></span> What We Do
-      </div>
+      <div class="service-header">
+        <div class="pill" style="position: relative; z-index: 2">
+          <span class="dot"></span> What We Do
+        </div>
 
-      <h1 style="position: relative; z-index: 2; margin-top: 20px">
-        End-to-End Digital Solutions
-        <span class="accent"> Under One Roof</span>
-      </h1>
+        <h1 style="position: relative; z-index: 2; margin-top: 20px">
+          End-to-End Digital Solutions
+          <span class="accent"> Under One Roof</span>
+        </h1>
 
-      <p style="
+        <p style="
             position: relative;
             z-index: 2;
             max-width: 600px;
             margin: 20px auto;
           ">
-        We provide end-to-end digital solutions to help your business grow, streamline operations, and build a strong
-        online presence. Our services are designed to support startups, small businesses, and growing brands with
-        scalable and result-driven technology.
-      </p>
+          We provide end-to-end digital solutions to help your business grow, streamline operations, and build a strong
+          online presence. Our services are designed to support startups, small businesses, and growing brands with
+          scalable and result-driven technology.
+        </p>
 
-      <div class="hero-btns" style="position: relative; z-index: 2">
-        <a href="#" class="btn-hero-primary">
-          Get a Free Proposal
-          <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
-          </svg>
-        </a>
-        <a href="#" class="btn-hero-secondary">View Case Studies</a>
+        <div class="hero-btns" style="position: relative; z-index: 2">
+          <NuxtLink to="/contact" class="btn-hero-primary">
+            Get a Free Proposal
+            <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+            </svg>
+          </NuxtLink>
+          <a href="#" class="btn-hero-secondary">View Case Studies</a>
+        </div>
       </div>
     </div>
 
@@ -350,7 +352,7 @@
 
           <div id="svcRow" class="svc-scroll-row">
 
-            <div class="svc-card">
+            <NuxtLink to="/web_dev_service" class="svc-card">
               <div class="svc-card-accent-line"></div>
               <div class="svc-card-top">
                 <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
@@ -372,7 +374,7 @@
                 </div>
                 <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
-            </div>
+            </NuxtLink>
 
             <div class="svc-card">
               <div class="svc-card-accent-line"></div>
@@ -785,295 +787,296 @@
 
     <!-- ══ TECH STACK ══ -->
     <section class="section section-alt section-center">
+      <div class="container">
+        <div class="section-pill">Tech Stack</div>
 
-      <div class="section-pill">Tech Stack</div>
+        <h2 class="section-title">
+          Built With the <span class="accent">Best Tools</span>
+        </h2>
 
-      <h2 class="section-title">
-        Built With the <span class="accent">Best Tools</span>
-      </h2>
+        <p class="section-sub">
+          We use battle-tested, modern technologies to build scalable products that last.
+        </p>
 
-      <p class="section-sub">
-        We use battle-tested, modern technologies to build scalable products that last.
-      </p>
-
-      <!-- FRONTEND -->
-      <div class="tech-category">
-        <div class="tech-category-header">
-          <h3 class="tech-category-title">Frontend Technologies</h3>
-          <div class="tech-scroll-btns">
-            <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', -260)">&#8249;</button>
-            <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', 260)">&#8250;</button>
-          </div>
-        </div>
-        <div class="tech-scroll-section">
-          <div class="tech-scroll-row" id="frontend">
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Re</div>
-                <span class="tc-tag">Frontend</span>
-              </div>
-              <span class="tc-name">React</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Nx</div>
-                <span class="tc-tag">Framework</span>
-              </div>
-              <span class="tc-name">Next.js</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Vu</div>
-                <span class="tc-tag">Frontend</span>
-              </div>
-              <span class="tc-name">Vue.js</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Ng</div>
-                <span class="tc-tag">Frontend</span>
-              </div>
-              <span class="tc-name">Angular</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">H5</div>
-                <span class="tc-tag">Markup</span>
-              </div>
-              <span class="tc-name">HTML5</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">C3</div>
-                <span class="tc-tag">Styling</span>
-              </div>
-              <span class="tc-name">CSS3</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">JS</div>
-                <span class="tc-tag">Frontend</span>
-              </div>
-              <span class="tc-name">JavaScript</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">TS</div>
-                <span class="tc-tag">Frontend</span>
-              </div>
-              <span class="tc-name">TypeScript</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Tw</div>
-                <span class="tc-tag">UI</span>
-              </div>
-              <span class="tc-name">Tailwind CSS</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Bs</div>
-                <span class="tc-tag">UI</span>
-              </div>
-              <span class="tc-name">Bootstrap</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Fl</div>
-                <span class="tc-tag">Mobile</span>
-              </div>
-              <span class="tc-name">Flutter</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">RN</div>
-                <span class="tc-tag">Mobile</span>
-              </div>
-              <span class="tc-name">React Native</span>
+        <!-- FRONTEND -->
+        <div class="tech-category">
+          <div class="tech-category-header">
+            <h3 class="tech-category-title">Frontend Technologies</h3>
+            <div class="tech-scroll-btns">
+              <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', -260)">&#8249;</button>
+              <button class="tech-scroll-btn" onclick="scrollTechRow('frontend', 260)">&#8250;</button>
             </div>
           </div>
-        </div>
-      </div>
-
-      <!-- BACKEND -->
-      <div class="tech-category">
-        <div class="tech-category-header">
-          <h3 class="tech-category-title">Backend Technologies</h3>
-          <div class="tech-scroll-btns">
-            <button class="tech-scroll-btn" onclick="scrollTechRow('backend', -260)">&#8249;</button>
-            <button class="tech-scroll-btn" onclick="scrollTechRow('backend', 260)">&#8250;</button>
-          </div>
-        </div>
-        <div class="tech-scroll-section">
-          <div class="tech-scroll-row" id="backend">
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">No</div>
-                <span class="tc-tag">Backend</span>
+          <div class="tech-scroll-section">
+            <div class="tech-scroll-row" id="frontend">
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Re</div>
+                  <span class="tc-tag">Frontend</span>
+                </div>
+                <span class="tc-name">React</span>
               </div>
-              <span class="tc-name">Node.js</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Ex</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Nx</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">Next.js</span>
               </div>
-              <span class="tc-name">Express.js</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Py</div>
-                <span class="tc-tag">Backend</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Vu</div>
+                  <span class="tc-tag">Frontend</span>
+                </div>
+                <span class="tc-name">Vue.js</span>
               </div>
-              <span class="tc-name">Python</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Dj</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Ng</div>
+                  <span class="tc-tag">Frontend</span>
+                </div>
+                <span class="tc-name">Angular</span>
               </div>
-              <span class="tc-name">Django</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">FA</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">H5</div>
+                  <span class="tc-tag">Markup</span>
+                </div>
+                <span class="tc-name">HTML5</span>
               </div>
-              <span class="tc-name">FastAPI</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Ph</div>
-                <span class="tc-tag">Backend</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">C3</div>
+                  <span class="tc-tag">Styling</span>
+                </div>
+                <span class="tc-name">CSS3</span>
               </div>
-              <span class="tc-name">PHP</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Lv</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">JS</div>
+                  <span class="tc-tag">Frontend</span>
+                </div>
+                <span class="tc-name">JavaScript</span>
               </div>
-              <span class="tc-name">Laravel</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">CI</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">TS</div>
+                  <span class="tc-tag">Frontend</span>
+                </div>
+                <span class="tc-name">TypeScript</span>
               </div>
-              <span class="tc-name">CodeIgniter</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Jv</div>
-                <span class="tc-tag">Backend</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Tw</div>
+                  <span class="tc-tag">UI</span>
+                </div>
+                <span class="tc-name">Tailwind CSS</span>
               </div>
-              <span class="tc-name">Java</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">SB</div>
-                <span class="tc-tag">Framework</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Bs</div>
+                  <span class="tc-tag">UI</span>
+                </div>
+                <span class="tc-name">Bootstrap</span>
               </div>
-              <span class="tc-name">Spring Boot</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Go</div>
-                <span class="tc-tag">Backend</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Fl</div>
+                  <span class="tc-tag">Mobile</span>
+                </div>
+                <span class="tc-name">Flutter</span>
               </div>
-              <span class="tc-name">Golang</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Kf</div>
-                <span class="tc-tag">Event Stream</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">RN</div>
+                  <span class="tc-tag">Mobile</span>
+                </div>
+                <span class="tc-name">React Native</span>
               </div>
-              <span class="tc-name">Kafka</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">AI</div>
-                <span class="tc-tag">AI</span>
-              </div>
-              <span class="tc-name">OpenAI / GPT</span>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- DATABASE -->
-      <div class="tech-category">
-        <div class="tech-category-header">
-          <h3 class="tech-category-title">Database Technologies</h3>
-          <div class="tech-scroll-btns">
-            <button class="tech-scroll-btn" onclick="scrollTechRow('database', -260)">&#8249;</button>
-            <button class="tech-scroll-btn" onclick="scrollTechRow('database', 260)">&#8250;</button>
+        <!-- BACKEND -->
+        <div class="tech-category">
+          <div class="tech-category-header">
+            <h3 class="tech-category-title">Backend Technologies</h3>
+            <div class="tech-scroll-btns">
+              <button class="tech-scroll-btn" onclick="scrollTechRow('backend', -260)">&#8249;</button>
+              <button class="tech-scroll-btn" onclick="scrollTechRow('backend', 260)">&#8250;</button>
+            </div>
+          </div>
+          <div class="tech-scroll-section">
+            <div class="tech-scroll-row" id="backend">
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">No</div>
+                  <span class="tc-tag">Backend</span>
+                </div>
+                <span class="tc-name">Node.js</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Ex</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">Express.js</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Py</div>
+                  <span class="tc-tag">Backend</span>
+                </div>
+                <span class="tc-name">Python</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Dj</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">Django</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">FA</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">FastAPI</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Ph</div>
+                  <span class="tc-tag">Backend</span>
+                </div>
+                <span class="tc-name">PHP</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Lv</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">Laravel</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">CI</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">CodeIgniter</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Jv</div>
+                  <span class="tc-tag">Backend</span>
+                </div>
+                <span class="tc-name">Java</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">SB</div>
+                  <span class="tc-tag">Framework</span>
+                </div>
+                <span class="tc-name">Spring Boot</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Go</div>
+                  <span class="tc-tag">Backend</span>
+                </div>
+                <span class="tc-name">Golang</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Kf</div>
+                  <span class="tc-tag">Event Stream</span>
+                </div>
+                <span class="tc-name">Kafka</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">AI</div>
+                  <span class="tc-tag">AI</span>
+                </div>
+                <span class="tc-name">OpenAI / GPT</span>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="tech-scroll-section">
-          <div class="tech-scroll-row" id="database">
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Pg</div>
-                <span class="tc-tag">Database</span>
-              </div>
-              <span class="tc-name">PostgreSQL</span>
+
+        <!-- DATABASE -->
+        <div class="tech-category">
+          <div class="tech-category-header">
+            <h3 class="tech-category-title">Database Technologies</h3>
+            <div class="tech-scroll-btns">
+              <button class="tech-scroll-btn" onclick="scrollTechRow('database', -260)">&#8249;</button>
+              <button class="tech-scroll-btn" onclick="scrollTechRow('database', 260)">&#8250;</button>
             </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">My</div>
-                <span class="tc-tag">Database</span>
+          </div>
+          <div class="tech-scroll-section">
+            <div class="tech-scroll-row" id="database">
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Pg</div>
+                  <span class="tc-tag">Database</span>
+                </div>
+                <span class="tc-name">PostgreSQL</span>
               </div>
-              <span class="tc-name">MySQL</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">SL</div>
-                <span class="tc-tag">Database</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">My</div>
+                  <span class="tc-tag">Database</span>
+                </div>
+                <span class="tc-name">MySQL</span>
               </div>
-              <span class="tc-name">SQLite</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">SS</div>
-                <span class="tc-tag">Database</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">SL</div>
+                  <span class="tc-tag">Database</span>
+                </div>
+                <span class="tc-name">SQLite</span>
               </div>
-              <span class="tc-name">SQL Server</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Mg</div>
-                <span class="tc-tag">NoSQL</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">SS</div>
+                  <span class="tc-tag">Database</span>
+                </div>
+                <span class="tc-name">SQL Server</span>
               </div>
-              <span class="tc-name">MongoDB</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Ca</div>
-                <span class="tc-tag">NoSQL</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Mg</div>
+                  <span class="tc-tag">NoSQL</span>
+                </div>
+                <span class="tc-name">MongoDB</span>
               </div>
-              <span class="tc-name">Cassandra</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Rd</div>
-                <span class="tc-tag">Cache DB</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Ca</div>
+                  <span class="tc-tag">NoSQL</span>
+                </div>
+                <span class="tc-name">Cassandra</span>
               </div>
-              <span class="tc-name">Redis</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">CH</div>
-                <span class="tc-tag">Analytics</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Rd</div>
+                  <span class="tc-tag">Cache DB</span>
+                </div>
+                <span class="tc-name">Redis</span>
               </div>
-              <span class="tc-name">ClickHouse</span>
-            </div>
-            <div class="tech-chip">
-              <div class="tech-chip-top">
-                <div class="tech-chip-icon">Es</div>
-                <span class="tc-tag">Search DB</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">CH</div>
+                  <span class="tc-tag">Analytics</span>
+                </div>
+                <span class="tc-name">ClickHouse</span>
               </div>
-              <span class="tc-name">Elasticsearch</span>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon">Es</div>
+                  <span class="tc-tag">Search DB</span>
+                </div>
+                <span class="tc-name">Elasticsearch</span>
+              </div>
             </div>
           </div>
         </div>
@@ -1088,12 +1091,12 @@
         <h2>Let's Turn Your Idea Into a <span>Live Product</span></h2>
       </div>
       <div class="cta-btns">
-        <a href="#" class="btn-cta-white">Get Free Proposal</a>
-        <a href="#" class="btn-cta-outline">Talk to an Expert →</a>
+        <NuxtLink to="/contact" class="btn-cta-white">Get Free Proposal</NuxtLink>
+        <NuxtLink to="/contact" class="btn-cta-outline">Talk to an Expert →</NuxtLink>
       </div>
     </div>
   </section>
-
+<!-- ══ WORK IN PROGRESS ══ 
   <section class="pw-section">
     <div class="container-fluid px-3 px-sm-4 px-lg-5">
       <div class="row align-items-end mb-4 gy-3">
@@ -1454,6 +1457,8 @@
       </div>
     </div>
   </section>
+  -->
+  
 
   <section class="faq-section">
     <div class="container">
@@ -1469,13 +1474,13 @@
             <p>Don't find the answer you need? Our team is here to help you with anything from project scoping to
               technical consultation.</p>
 
-            <a href="#" class="contact-btn">
+            <NuxtLink to="/contact" class="contact-btn">
               Contact Us
               <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none"
                 stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
                 <path d="M5 12h14M12 5l7 7-7 7" />
               </svg>
-            </a>
+            </NuxtLink>
 
             <div class="stats-row">
               <div class="stat-item">
