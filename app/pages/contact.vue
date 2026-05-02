@@ -3,7 +3,6 @@
           <!-- ═══ HERO ═══ -->
     <section class="contact-hero">
       <div class="hero-content">
-        <div class="hero-eyebrow">Contact CoderArth Technologies</div>
         <h1>Let's<br /><span class="hi">Connect</span></h1>
         <p class="hero-desc">
           Looking for reliable software development, web solutions, or mobile app
