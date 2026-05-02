@@ -2039,8 +2039,8 @@ nav {
 }
 
 .svc-card:hover {
-  border-color: var(--blue);
-  box-shadow: 0 12px 32px rgba(24, 95, 165, 0.13);
+  border-color: var(--green-dark);
+  box-shadow: 15px 1px 16px rgba(24, 95, 165, 0.13);
 }
 
 /* ── Top accent line (sweeps in on hover) ───────────────── */
@@ -3119,7 +3119,7 @@ nav {
 }
 
 .tech-chip:hover {
-  transform: translateY(-5px);
+  /* transform: translateY(-5px); */
   border-color: var(--blue);
   box-shadow: 0 10px 24px rgba(24, 95, 165, 0.11);
 }
@@ -3138,7 +3138,7 @@ nav {
   height: 36px;
   border-radius: 9px;
   background: #78ff2d17;
-  border: 1px solid #07cc0740;
+  /* border: 1px solid #07cc0740; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -4681,8 +4681,8 @@ nav {
 }
 
 .lp-modal {
-  background: var(--gray-900);
-  border: 1px solid rgba(255, 255, 255, 0.08);
+  background: white;
+  border: 1px solid rgba(17, 16, 16, 0.525);
   border-radius: 20px;
   width: 100%;
   max-width: 560px;
@@ -4698,7 +4698,7 @@ nav {
   width: 32px;
   height: 32px;
   border-radius: 8px;
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.316);
   background: rgba(255, 255, 255, 0.05);
   color: var(--gray-400);
   font-size: 16px;
@@ -4714,7 +4714,7 @@ nav {
 
 .lp-close:hover {
   background: rgba(255, 255, 255, 0.1);
-  color: var(--white);
+  color: black;
 }
 
 .lp-badge {
@@ -4753,19 +4753,19 @@ nav {
 .lp-title {
   font-size: 26px;
   font-weight: 700;
-  color: var(--white);
+  color: var(--gray-900) ;
   margin: 0 0 8px;
   letter-spacing: -0.02em;
   line-height: 1.2;
 }
 
 .lp-title span {
-  color: var(--blue-light);
+  color: var(--blue);
 }
 
 .lp-sub {
   font-size: 13px;
-  color: var(--gray-400);
+  color: var(--gray-800);
   margin: 0 0 28px;
   line-height: 1.6;
 }
@@ -4792,21 +4792,21 @@ nav {
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.08em;
-  color: var(--gray-400);
+  color: var(--gray-700);
 }
 
 .lp-label span {
-  color: var(--blue-light);
+  color: var(--blue);
 }
 
 .lp-input,
 .lp-textarea {
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(12, 11, 11, 0.56);
   border-radius: 10px;
   padding: 11px 14px;
   font-size: 14px;
-  color: var(--white);
+  color: var(--gray-800);
   outline: none;
   transition:
     border-color 0.2s,
@@ -4818,7 +4818,7 @@ nav {
 
 .lp-input::placeholder,
 .lp-textarea::placeholder {
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(0, 0, 0, 0.271);
 }
 
 .lp-input:focus,

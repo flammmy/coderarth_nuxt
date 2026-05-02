@@ -586,7 +586,7 @@
                 Enterprise-grade security
               </div>
               <div class="header-img-placeholder">
-                <img src="/images/system_abstract.jpg" alt="Enterprise system abstract" />
+                <img src="/images/tech_logos//images/system_abstract.jpg" alt="Enterprise system abstract" />
               </div>
               <div class="hdr-badge-br">
                 <i class="fa-solid fa-rocket"></i>
@@ -635,7 +635,7 @@
           <div class="col-12 col-lg-5 col-xl-4 d-flex flex-column gap-3">
 
             <div class="left-header-img">
-              <img src="/images/ent-first.jpg" alt="Enterprise first" />
+              <img src="/images/tech_logos//images/ent-first.jpg" alt="Enterprise first" />
             </div>
 
             <div class="bc bc-dark">
@@ -811,87 +811,73 @@
             <div class="tech-scroll-row" id="frontend">
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Re</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/reactjs.png" alt="React"></div>
                   <span class="tc-tag">Frontend</span>
                 </div>
                 <span class="tc-name">React</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Nx</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/nextjs.png" alt="Next.js"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">Next.js</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Vu</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/vuejs.png" alt="Vue.js"></div>
                   <span class="tc-tag">Frontend</span>
                 </div>
                 <span class="tc-name">Vue.js</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Ng</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/angular.png" alt="Angular"></div>
                   <span class="tc-tag">Frontend</span>
                 </div>
                 <span class="tc-name">Angular</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">H5</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/html.png" alt="HTML5"></div>
                   <span class="tc-tag">Markup</span>
                 </div>
                 <span class="tc-name">HTML5</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">C3</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/css.png" alt="CSS3"></div>
                   <span class="tc-tag">Styling</span>
                 </div>
                 <span class="tc-name">CSS3</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">JS</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/javascript.png" alt="JavaScript"></div>
                   <span class="tc-tag">Frontend</span>
                 </div>
                 <span class="tc-name">JavaScript</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">TS</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/typescript.png" alt="TypeScript"></div>
                   <span class="tc-tag">Frontend</span>
                 </div>
                 <span class="tc-name">TypeScript</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Tw</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/tailwind.png" alt="Tailwind"></div>
                   <span class="tc-tag">UI</span>
                 </div>
                 <span class="tc-name">Tailwind CSS</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Bs</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/bootstrap.png" alt="Bootstrap"></div>
                   <span class="tc-tag">UI</span>
                 </div>
                 <span class="tc-name">Bootstrap</span>
-              </div>
-              <div class="tech-chip">
-                <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Fl</div>
-                  <span class="tc-tag">Mobile</span>
-                </div>
-                <span class="tc-name">Flutter</span>
-              </div>
-              <div class="tech-chip">
-                <div class="tech-chip-top">
-                  <div class="tech-chip-icon">RN</div>
-                  <span class="tc-tag">Mobile</span>
-                </div>
-                <span class="tc-name">React Native</span>
               </div>
             </div>
           </div>
@@ -910,94 +896,123 @@
             <div class="tech-scroll-row" id="backend">
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">No</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/nodejs.png" alt="Node.js"></div>
                   <span class="tc-tag">Backend</span>
                 </div>
                 <span class="tc-name">Node.js</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Ex</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/express.png" alt="Express"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">Express.js</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Py</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/python.png" alt="Python"></div>
                   <span class="tc-tag">Backend</span>
                 </div>
                 <span class="tc-name">Python</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Dj</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/django.png" alt="Django"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">Django</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">FA</div>
+                 <div class="tech-chip-icon"><img src="/images/tech_logos/fastapi.png" alt="FastAPI" width="60"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">FastAPI</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Ph</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/php.png" alt="PHP"></div>
                   <span class="tc-tag">Backend</span>
                 </div>
                 <span class="tc-name">PHP</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Lv</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/laravel.png" alt="Laravel"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">Laravel</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">CI</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/codeignitor.png" alt="CodeIgniter"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">CodeIgniter</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Jv</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/java.png" alt="Java"></div>
                   <span class="tc-tag">Backend</span>
                 </div>
                 <span class="tc-name">Java</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">SB</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/springboot.png" alt="Spring Boot"></div>
                   <span class="tc-tag">Framework</span>
                 </div>
                 <span class="tc-name">Spring Boot</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Go</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/golang.png" alt="Golang" width="60"></div>
                   <span class="tc-tag">Backend</span>
                 </div>
                 <span class="tc-name">Golang</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Kf</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/kafka.png" alt="Kafka"></div>
                   <span class="tc-tag">Event Stream</span>
                 </div>
                 <span class="tc-name">Kafka</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">AI</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/openai.png" alt="OpenAI"></div>
                   <span class="tc-tag">AI</span>
                 </div>
                 <span class="tc-name">OpenAI / GPT</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ANDROID DEVELOPMENT -->
+        <div class="tech-category">
+          <div class="tech-category-header">
+            <h3 class="tech-category-title">Android Development</h3>
+            <div class="tech-scroll-btns">
+              <button class="tech-scroll-btn" onclick="scrollTechRow('android', -260)">&#8249;</button>
+              <button class="tech-scroll-btn" onclick="scrollTechRow('android', 260)">&#8250;</button>
+            </div>
+          </div>
+          <div class="tech-scroll-section">
+            <div class="tech-scroll-row" id="android">
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/flutter.png" alt="Flutter"></div>
+                  <span class="tc-tag">Mobile</span>
+                </div>
+                <span class="tc-name">Flutter</span>
+              </div>
+              <div class="tech-chip">
+                <div class="tech-chip-top">
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/react_native.png" alt="React Native"></div>
+                  <span class="tc-tag">Mobile</span>
+                </div>
+                <span class="tc-name">React Native</span>
               </div>
             </div>
           </div>
@@ -1016,63 +1031,63 @@
             <div class="tech-scroll-row" id="database">
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Pg</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/postgres.png" alt="PostgreSQL"></div>
                   <span class="tc-tag">Database</span>
                 </div>
                 <span class="tc-name">PostgreSQL</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">My</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/mysql.png" alt="MySQL"></div>
                   <span class="tc-tag">Database</span>
                 </div>
                 <span class="tc-name">MySQL</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">SL</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/sqlite.png" alt="SQLite"></div>
                   <span class="tc-tag">Database</span>
                 </div>
                 <span class="tc-name">SQLite</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">SS</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/sql_server.png" alt="SQL Server"></div>
                   <span class="tc-tag">Database</span>
                 </div>
                 <span class="tc-name">SQL Server</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Mg</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/mongo.png" alt="MongoDB"></div>
                   <span class="tc-tag">NoSQL</span>
                 </div>
                 <span class="tc-name">MongoDB</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Ca</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/cassandra.png" alt="Cassandra" width="60"></div>
                   <span class="tc-tag">NoSQL</span>
                 </div>
                 <span class="tc-name">Cassandra</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Rd</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/redis.png" alt="Redis"></div>
                   <span class="tc-tag">Cache DB</span>
                 </div>
                 <span class="tc-name">Redis</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">CH</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/Clickhouse.png" alt="ClickHouse"></div>
                   <span class="tc-tag">Analytics</span>
                 </div>
                 <span class="tc-name">ClickHouse</span>
               </div>
               <div class="tech-chip">
                 <div class="tech-chip-top">
-                  <div class="tech-chip-icon">Es</div>
+                  <div class="tech-chip-icon"><img src="/images/tech_logos/elastic.png" alt="Elasticsearch"></div>
                   <span class="tc-tag">Search DB</span>
                 </div>
                 <span class="tc-name">Elasticsearch</span>
@@ -1081,9 +1096,7 @@
           </div>
         </div>
       </div>
-
     </section>
-
     <!-- ══ CTA BANNER ══ -->
     <div class="cta-banner">
       <div class="left">
@@ -1096,7 +1109,7 @@
       </div>
     </div>
   </section>
-<!-- ══ WORK IN PROGRESS ══ 
+  <!-- ══ WORK IN PROGRESS ══ 
   <section class="pw-section">
     <div class="container-fluid px-3 px-sm-4 px-lg-5">
       <div class="row align-items-end mb-4 gy-3">
@@ -1458,7 +1471,7 @@
     </div>
   </section>
   -->
-  
+
 
   <section class="faq-section">
     <div class="container">
@@ -2159,6 +2172,79 @@
         </div>
       </div>
     </div>
+     <div class="lp-backdrop" id="lpBackdrop">
+    <div class="lp-modal" id="lpModal">
+      <button class="lp-close" onclick="lpClose()" title="Close">
+        &#x2715;
+      </button>
+
+      <div class="lp-timer-bar">
+        <div class="lp-timer-fill" id="lpTimerFill"></div>
+      </div>
+
+      <div id="lpFormWrap">
+        <div class="lp-badge">
+          <div class="lp-badge-dot"></div>
+          We respond within 24 hours
+        </div>
+        <h2 class="lp-title">Start Your <span>Project</span></h2>
+        <p class="lp-sub">
+          Tell us about your project and we'll get back to you with a
+          personalized proposal.
+        </p>
+
+        <div class="lp-row">
+          <div class="lp-field">
+            <label class="lp-label">First Name <span>*</span></label>
+            <input class="lp-input" type="text" placeholder="John" id="lp-fname" />
+          </div>
+          <div class="lp-field">
+            <label class="lp-label">Last Name</label>
+            <input class="lp-input" type="text" placeholder="Doe" />
+          </div>
+          <div class="lp-field">
+            <label class="lp-label">Contact Number <span>*</span></label>
+            <input class="lp-input" type="tel" placeholder="+91 98765 43210" id="lp-phone" />
+          </div>
+          <div class="lp-field">
+            <label class="lp-label">Company Name</label>
+            <input class="lp-input" type="text" placeholder="Acme Inc." />
+          </div>
+          <div class="lp-field lp-full">
+            <label class="lp-label">Project Description</label>
+            <textarea class="lp-textarea" placeholder="Briefly describe what you're looking to build..."></textarea>
+          </div>
+        </div>
+
+        <button class="lp-submit" onclick="lpSubmit()">
+          Submit Project Request
+        </button>
+        <div class="lp-footer-note">
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none">
+            <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#475569" stroke-width="1.5" />
+          </svg>
+          Your info is safe — no spam, ever.
+        </div>
+      </div>
+
+      <div class="lp-success" id="lpSuccess">
+        <div class="lp-success-icon">
+          <svg viewBox="0 0 24 24" fill="none">
+            <path d="M20 6L9 17l-5-5" stroke="#10b981" stroke-width="2" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <h3>We've got your details!</h3>
+        <p>
+          Our team will reach out within 24 hours<br />with a personalized
+          proposal.
+        </p>
+        <button class="lp-submit" style="max-width: 200px; margin-top: 4px" onclick="lpClose()">
+          Close
+        </button>
+      </div>
+    </div>
+  </div>
 
     <!-- BOTTOM BAR -->
     <div class="bottom-bar">
