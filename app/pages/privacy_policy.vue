@@ -160,10 +160,6 @@
         </div>
       </div>
 
-      <p class="pp-copyright">© 2026 CodersArth Technologies LLP. All rights reserved. &nbsp;·&nbsp;
-        <NuxtLink to="/terms_conditions">Terms &amp; Conditions</NuxtLink>
-      </p>
-
     </main>
   </div>
 </template>

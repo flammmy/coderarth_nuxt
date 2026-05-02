@@ -1,34 +1,36 @@
 <template>
-    <div>
+    <div class="contact-page">
           <!-- ═══ HERO ═══ -->
-    <section class="hero">
-      <div class="hero-eyebrow">Contact CoderArth Technologies</div>
-      <h1>Let's<br /><span class="hi">Connect</span></h1>
-      <p class="hero-desc">
-        Looking for reliable software development, web solutions, or mobile app
-        services? Get in touch with CoderArth Technologies to discuss your
-        requirements, ask questions, or start planning your next digital
-        project.
-      </p>
-      <div class="hero-actions">
-        <a href="#form" class="btn-primary">
-          <svg
-            width="16"
-            height="16"
-            viewBox="0 0 16 16"
-            fill="none"
-            stroke="currentColor"
-            stroke-width="2"
-            stroke-linecap="round"
-          >
-            <path
-              d="M14 10c0 .4-.1.8-.3 1.1l-1 1.6c-.2.3-.6.5-1 .5H4.3c-.4 0-.7-.2-1-.5l-1-1.6C2.1 10.8 2 10.4 2 10V4a2 2 0 012-2h8a2 2 0 012 2v6z"
-            />
-            <path d="M8 6v3M8 11.5v.5" />
-          </svg>
-          Send a Message
-        </a>
-        <a href="#form" class="btn-ghost"> Start Your Project → </a>
+    <section class="contact-hero">
+      <div class="hero-content">
+        <div class="hero-eyebrow">Contact CoderArth Technologies</div>
+        <h1>Let's<br /><span class="hi">Connect</span></h1>
+        <p class="hero-desc">
+          Looking for reliable software development, web solutions, or mobile app
+          services? Get in touch with CoderArth Technologies to discuss your
+          requirements, ask questions, or start planning your next digital
+          project.
+        </p>
+        <div class="hero-actions">
+          <a href="#form" class="btn-primary">
+            <svg
+              width="16"
+              height="16"
+              viewBox="0 0 16 16"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+            >
+              <path
+                d="M14 10c0 .4-.1.8-.3 1.1l-1 1.6c-.2.3-.6.5-1 .5H4.3c-.4 0-.7-.2-1-.5l-1-1.6C2.1 10.8 2 10.4 2 10V4a2 2 0 012-2h8a2 2 0 012 2v6z"
+              />
+              <path d="M8 6v3M8 11.5v.5" />
+            </svg>
+            Send a Message
+          </a>
+          <a href="#form" class="btn-ghost"> Start Your Project → </a>
+        </div>
       </div>
 
       <!-- INFO CARDS -->
@@ -38,7 +40,7 @@
             <svg
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#1a56db"
+              stroke="#60a5fa"
               stroke-width="1.8"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -60,7 +62,7 @@
             <svg
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#059669"
+              stroke="#34d399"
               stroke-width="1.8"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -81,7 +83,7 @@
             <svg
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#4338ca"
+              stroke="#818cf8"
               stroke-width="1.8"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -99,7 +101,7 @@
             <svg
               viewBox="0 0 24 24"
               fill="none"
-              stroke="#d97706"
+              stroke="#fbbf24"
               stroke-width="1.8"
               stroke-linecap="round"
               stroke-linejoin="round"
