@@ -33,7 +33,7 @@ function toggleService(row) {
         </p>
 
         <div class="h-btns">
-          <NuxtLink to="/contact" class="h-btn-primary">
+          <NuxtLink to="/consultancy" class="h-btn-primary">
             Start a Project
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none">
               <path d="M5 12h14M13 6l6 6-6 6" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
@@ -532,7 +532,7 @@ function toggleService(row) {
           <p class="cta-desc">Book a free 30-minute strategy call. We'll scope your project, suggest the right tech, and give you a ballpark budget — no strings attached.</p>
         </div>
         <div class="cta-actions">
-          <NuxtLink to="/contact" class="btn-green">
+          <NuxtLink to="/consultancy" class="btn-green">
             Book Free Call
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 8h10M8 3l5 5-5 5" /></svg>
           </NuxtLink>

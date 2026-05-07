@@ -26,7 +26,7 @@
             </p>
 
             <div class="hero-actions">
-              <NuxtLink to="/contact" class="btn-hero-primary">
+              <NuxtLink to="/consultancy" class="btn-hero-primary">
                 Get Free Consultation
                 <svg width="16" height="16" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
@@ -1518,7 +1518,7 @@
 
             <div class="faq-item open">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">What services does Space To Tech offer?</span>
+                <span class="faq-question-text">How can I start a project with your company?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1527,19 +1527,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  We specialize in custom mobile app development <span class="pill">Flutter</span> <span
-                    class="pill">React Native</span>, web development <span class="pill">React JS</span> <span
-                    class="pill">Angular</span> <span class="pill">NodeJS</span>, UI/UX designing, frontend &amp;
-                  backend development, no-code solutions, and system operations digitalization to help businesses
-                  automate and scale efficiently. As a leading <a href="#">Top Mobile App Development Company</a>, we
-                  deliver end-to-end digital solutions tailored to your business needs.
+                  Simply contact us through our website, email, or phone. We'll schedule a consultation to understand your requirements, goals, and budget. After that, we'll share a proposal with timeline, scope, and cost. Once approved, the project begins.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">Why should I choose Space To Tech for my app or web project?</span>
+                <span class="faq-question-text">What services do you provide?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1548,16 +1543,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  We combine deep technical expertise with a product-first mindset. Every project gets a dedicated team,
-                  transparent communication, and agile delivery. Our engineers have shipped apps used by millions across
-                  fintech, healthtech, and e-commerce sectors — and we treat your goals as our own milestones.
+                  We offer a range of digital services including <span class="pill">Website Design &amp; Development</span> <span class="pill">CRM Software Development</span> <span class="pill">Digital Marketing</span> and <span class="pill">Custom Software Solutions</span>. Each service is tailored to meet your business needs.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">Do you develop cross-platform mobile apps?</span>
+                <span class="faq-question-text">How do you handle project pricing and payments?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1566,16 +1559,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  Yes. We build cross-platform apps using <span class="pill">Flutter</span> and <span class="pill">React
-                    Native</span>, allowing you to target both iOS and Android from a single codebase — reducing cost by
-                  up to 40% while maintaining near-native performance and a polished UI.
+                  Project pricing depends on scope, complexity, and timeline. We follow a milestone-based payment structure: <span class="pill">Advance payment</span> to start the project, <span class="pill">Mid-phase payment</span> based on progress, and <span class="pill">Final payment</span> before delivery.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">How long does it take to develop a mobile or web application?</span>
+                <span class="faq-question-text">How can I get a project from you or collaborate?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1584,17 +1575,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  Timelines vary by complexity. A simple MVP typically takes <span class="pill">6–10 weeks</span>, a
-                  mid-range app <span class="pill">3–5 months</span>, and enterprise platforms <span class="pill">6–12
-                    months</span>. After our initial discovery call, we'll provide a detailed project roadmap with
-                  realistic milestones.
+                  If you're a client, you can directly reach out to us with your requirements. If you're looking to collaborate or outsource work, contact us with your portfolio and expertise. We evaluate partnerships based on quality and reliability.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">Which industries do you serve?</span>
+                <span class="faq-question-text">What is your project policy?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1603,17 +1591,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  We serve a broad spectrum including <span class="pill">FinTech</span> <span
-                    class="pill">HealthTech</span> <span class="pill">EdTech</span> <span class="pill">E-commerce</span>
-                  <span class="pill">Logistics</span> and <span class="pill">Real Estate</span>. Our cross-domain
-                  experience lets us bring fresh thinking and proven patterns to any vertical.
+                  Our project policy ensures transparency and smooth execution. A clear scope of work is defined before starting, timelines are mutually agreed upon, and regular updates are provided throughout. Any additional features outside scope may require extra cost.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">Do you offer post-launch support and maintenance?</span>
+                <span class="faq-question-text">Do you offer revisions or changes during the project?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1622,16 +1607,14 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  Absolutely. We offer flexible <a href="#">support &amp; maintenance plans</a> ranging from on-demand
-                  bug fixes to fully managed monthly retainers — including performance monitoring, OS updates, feature
-                  iterations, and 24/7 critical incident response.
+                  Yes, we provide a limited number of revisions as per the agreed scope. Additional changes or major modifications beyond the initial requirements may involve extra charges and timeline adjustments.
                 </div>
               </div>
             </div>
 
             <div class="faq-item">
               <button class="faq-question" onclick="toggleFaq(this)">
-                <span class="faq-question-text">How do you handle project pricing and contracts?</span>
+                <span class="faq-question-text">What is your refund policy?</span>
                 <span class="faq-icon">
                   <svg viewBox="0 0 14 14" fill="none">
                     <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
@@ -1640,9 +1623,7 @@
               </button>
               <div class="faq-body">
                 <div class="faq-body-inner">
-                  We offer <span class="pill">Fixed-Price</span> contracts for well-scoped projects and <span
-                    class="pill">Time &amp; Material</span> models for evolving products. All engagements begin with a
-                  free consultation and a detailed proposal — no surprises, no hidden fees.
+                  Advance payments are generally non-refundable once the project has started. If the project is canceled before work begins, a partial refund may be issued. No refund is applicable after significant work has been completed. Refund terms are clearly mentioned in the agreement before starting.
                 </div>
               </div>
             </div>
@@ -2256,13 +2237,13 @@
         <span class="trust-pill">GoodFirms ★ 4.8</span>
       </div>
 
-      <a href="#" class="cta-btn">
+      <NuxtLink to="/consultancy" class="cta-btn">
         Start Your Project
         <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5"
           stroke-linecap="round">
           <path d="M3 8h10M8 3l5 5-5 5" />
         </svg>
-      </a>
+      </NuxtLink>
     </div>
   </section>
 </template>

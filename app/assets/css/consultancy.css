@@ -1,0 +1,802 @@
+/* ═══════════════════════════════
+   FREE CONSULTANCY PAGE
+   All classes prefixed cons- to avoid leaking
+═══════════════════════════════ */
+
+.pg-cons {
+  background: #f5f7ff;
+  min-height: 100vh;
+}
+
+/* ── HERO ── */
+.cons-hero {
+  position: relative;
+  background: #0f172a;
+  overflow: hidden;
+  padding: 140px 24px 100px;
+  text-align: center;
+}
+
+.cons-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 60% 55% at 20% 50%, rgba(26, 86, 219, 0.35) 0%, transparent 70%),
+    radial-gradient(ellipse 50% 45% at 80% 40%, rgba(16, 185, 129, 0.25) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cons-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+.cons-hero-inner {
+  position: relative;
+  z-index: 1;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.cons-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.3);
+  color: #34d399;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 7px 16px;
+  border-radius: 99px;
+  margin-bottom: 28px;
+}
+
+.cons-hero h1 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(2.4rem, 5.5vw, 4rem);
+  font-weight: 900;
+  color: #fff;
+  line-height: 1.1;
+  letter-spacing: -1.5px;
+  margin-bottom: 20px;
+}
+
+.cons-hero h1 span {
+  background: linear-gradient(90deg, #3b82f6, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.cons-hero p {
+  font-size: 1.05rem;
+  color: rgba(255, 255, 255, 0.55);
+  line-height: 1.75;
+  max-width: 560px;
+  margin: 0 auto 40px;
+}
+
+.cons-hero-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: var(--green, #10b981);
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 15px 32px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.22s, transform 0.2s;
+  box-shadow: 0 4px 20px rgba(16, 185, 129, 0.35);
+}
+
+.cons-hero-btn:hover {
+  background: #059669;
+  transform: translateY(-2px);
+}
+
+/* ── FORM SECTION ── */
+.cons-form-section {
+  padding: 96px 24px;
+  background: #0f172a;
+  position: relative;
+  overflow: hidden;
+}
+
+.cons-form-section::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+.cons-form-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 72px;
+  align-items: start;
+  position: relative;
+  z-index: 1;
+}
+
+/* LEFT */
+.cons-form-left h2 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.8rem, 3vw, 2.4rem);
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+.cons-form-left h2 span {
+  color: #3b82f6;
+}
+
+.cons-form-left > p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.5);
+  line-height: 1.75;
+  margin-bottom: 32px;
+}
+
+.cons-form-benefits {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-bottom: 40px;
+}
+
+.cons-form-benefits li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.cons-form-benefits li svg {
+  flex-shrink: 0;
+}
+
+.cons-form-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cons-form-clink {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-decoration: none;
+  padding: 14px 18px;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.07);
+  background: rgba(255, 255, 255, 0.03);
+  transition: border-color 0.2s, background 0.2s;
+}
+
+.cons-form-clink:hover {
+  border-color: rgba(59, 130, 246, 0.35);
+  background: rgba(59, 130, 246, 0.05);
+}
+
+.cons-form-cicon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cons-form-clink div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cons-form-clink span {
+  font-size: 0.7rem;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cons-form-clink strong {
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 600;
+}
+
+/* RIGHT — form card */
+.cons-form-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 24px;
+  padding: 40px 36px;
+}
+
+.cons-form-card h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 28px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.cons-form-note {
+  font-size: 0.75rem;
+  color: rgba(255, 255, 255, 0.25);
+  text-align: center;
+  margin-top: -4px;
+}
+
+.cons-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+.cons-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.cons-field {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.cons-field label {
+  font-size: 0.78rem;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.02em;
+}
+
+.cons-field .req {
+  color: #f87171;
+}
+
+.cons-field input,
+.cons-field textarea,
+.cons-field select {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  padding: 13px 16px;
+  font-size: 0.9rem;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  outline: none;
+  transition: border-color 0.2s;
+  resize: vertical;
+}
+
+.cons-field select {
+  cursor: pointer;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1l5 5 5-5' stroke='rgba(255,255,255,0.3)' stroke-width='1.5' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 16px center;
+  padding-right: 40px;
+}
+
+.cons-field select option {
+  background: #1e293b;
+  color: #fff;
+}
+
+.cons-field input::placeholder,
+.cons-field textarea::placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+.cons-field input:focus,
+.cons-field textarea:focus,
+.cons-field select:focus {
+  border-color: rgba(59, 130, 246, 0.5);
+}
+
+.cons-submit {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+  background: #3b82f6;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 15px 32px;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.22s, transform 0.2s;
+  box-shadow: 0 4px 18px rgba(59, 130, 246, 0.35);
+  margin-top: 6px;
+}
+
+.cons-submit:hover {
+  background: #1a56db;
+  transform: translateY(-2px);
+}
+
+/* ── WHY CHOOSE ── */
+.cons-why {
+  padding: 96px 24px;
+  background: #0f172a;
+  position: relative;
+  overflow: hidden;
+}
+
+.cons-why::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image:
+    linear-gradient(rgba(59, 130, 246, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(59, 130, 246, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+.cons-why-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cons-section-label {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: #3b82f6;
+  background: rgba(59, 130, 246, 0.1);
+  border: 1px solid rgba(59, 130, 246, 0.2);
+  padding: 5px 14px;
+  border-radius: 99px;
+  margin-bottom: 18px;
+}
+
+.cons-section-label.dark {
+  color: #1a56db;
+  background: rgba(26, 86, 219, 0.08);
+  border-color: rgba(26, 86, 219, 0.15);
+}
+
+.cons-why h2 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 14px;
+}
+
+.cons-why h2 span {
+  color: #3b82f6;
+}
+
+.cons-why > .cons-why-inner > p {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.75;
+  max-width: 480px;
+  margin: 0 auto 56px;
+}
+
+.cons-why-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.cons-why-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 32px 24px;
+  text-align: center;
+  transition: transform 0.22s, border-color 0.22s;
+}
+
+.cons-why-card:hover {
+  transform: translateY(-6px);
+  border-color: rgba(59, 130, 246, 0.3);
+}
+
+.cons-why-icon {
+  width: 56px;
+  height: 56px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 20px;
+}
+
+.cons-why-card h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.cons-why-card p {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.65;
+}
+
+/* ── PROCESS ── */
+.cons-process {
+  padding: 96px 24px;
+  background: #f5f7ff;
+}
+
+.cons-process-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cons-process h2 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.3rem, 2.5vw, 1.9rem);
+  font-weight: 700;
+  color: #1a2952;
+  max-width: 600px;
+  margin: 0 auto 64px;
+  line-height: 1.4;
+}
+
+.cons-steps {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0;
+}
+
+.cons-step {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 0 16px;
+  position: relative;
+}
+
+.cons-step-num {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, #3b82f6, #1a56db);
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.3);
+}
+
+.cons-step-line {
+  position: absolute;
+  top: 28px;
+  left: calc(50% + 28px);
+  right: calc(-50% + 28px);
+  height: 2px;
+  background: linear-gradient(90deg, #3b82f6, #10b981);
+  opacity: 0.3;
+}
+
+.cons-step-line--hidden {
+  display: none;
+}
+
+.cons-step h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1a2952;
+  margin-bottom: 10px;
+}
+
+.cons-step p {
+  font-size: 0.85rem;
+  color: #475569;
+  line-height: 1.65;
+  max-width: 180px;
+}
+
+/* ── GET IN TOUCH ── */
+.cons-touch {
+  padding: 96px 24px;
+  background: #0f172a;
+  position: relative;
+  overflow: hidden;
+}
+
+.cons-touch::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(ellipse 50% 60% at 10% 50%, rgba(26, 86, 219, 0.2) 0%, transparent 70%),
+    radial-gradient(ellipse 40% 50% at 90% 50%, rgba(16, 185, 129, 0.15) 0%, transparent 70%);
+  pointer-events: none;
+}
+
+.cons-touch-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+}
+
+.cons-touch-left h2 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.6rem, 3vw, 2.2rem);
+  font-weight: 800;
+  color: #10b981;
+  margin-bottom: 14px;
+}
+
+.cons-touch-left > p {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.45);
+  line-height: 1.75;
+  margin-bottom: 40px;
+  max-width: 440px;
+}
+
+.cons-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.cons-contact-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.cons-ci-icon {
+  width: 46px;
+  height: 46px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.cons-contact-item div:last-child {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.cons-ci-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.cons-ci-value {
+  font-size: 0.92rem;
+  color: rgba(255, 255, 255, 0.8);
+  font-weight: 500;
+}
+
+.cons-guarantee-card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 20px;
+  padding: 36px 32px;
+}
+
+.cons-guarantee-card h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 24px;
+}
+
+.cons-guarantee-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.cons-guarantee-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.9rem;
+  color: rgba(255, 255, 255, 0.65);
+}
+
+.cons-guarantee-list li svg {
+  flex-shrink: 0;
+}
+
+/* ── BOTTOM CTA ── */
+.cons-cta {
+  padding: 80px 24px;
+  background: #f5f7ff;
+  text-align: center;
+}
+
+.cons-cta-inner {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.cons-cta h2 {
+  font-family: "Syne", sans-serif;
+  font-size: clamp(1.7rem, 3.5vw, 2.6rem);
+  font-weight: 800;
+  color: #1a2952;
+  margin-bottom: 16px;
+  line-height: 1.2;
+}
+
+.cons-cta h2 span {
+  color: #3b82f6;
+}
+
+.cons-cta > .cons-cta-inner > p {
+  font-size: 0.95rem;
+  color: #475569;
+  line-height: 1.75;
+  margin-bottom: 36px;
+}
+
+.cons-cta-actions {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cons-cta-btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #3b82f6;
+  color: #fff;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 14px 28px;
+  border-radius: 12px;
+  text-decoration: none;
+  transition: background 0.22s, transform 0.2s;
+  box-shadow: 0 4px 18px rgba(59, 130, 246, 0.25);
+}
+
+.cons-cta-btn-primary:hover {
+  background: #1a56db;
+  transform: translateY(-2px);
+}
+
+.cons-cta-btn-ghost {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: transparent;
+  color: #1a2952;
+  font-family: "Syne", sans-serif;
+  font-weight: 700;
+  font-size: 0.9rem;
+  padding: 14px 28px;
+  border-radius: 12px;
+  border: 1.5px solid #dde6f5;
+  text-decoration: none;
+  transition: all 0.22s;
+}
+
+.cons-cta-btn-ghost:hover {
+  border-color: #3b82f6;
+  color: #3b82f6;
+}
+
+/* ══ RESPONSIVE ══ */
+@media (max-width: 1024px) {
+  .cons-form-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+  .cons-why-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .cons-steps {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  .cons-step-line {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .cons-hero {
+    padding: 120px 20px 80px;
+  }
+  .cons-form-card {
+    padding: 32px 20px;
+  }
+  .cons-row {
+    grid-template-columns: 1fr;
+  }
+  .cons-why-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+  .cons-steps {
+    grid-template-columns: 1fr 1fr;
+    gap: 32px;
+  }
+  .cons-touch-inner {
+    grid-template-columns: 1fr;
+    gap: 48px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cons-why-grid,
+  .cons-steps {
+    grid-template-columns: 1fr;
+  }
+  .cons-cta-actions {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .cons-cta-btn-primary,
+  .cons-cta-btn-ghost {
+    justify-content: center;
+  }
+}

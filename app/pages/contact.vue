@@ -484,33 +484,57 @@
     <!-- ═══ CTA BANNER ═══ -->
     <section class="cta-section">
       <div class="cta-banner">
-        <div class="cta-orb"></div>
-        <h2>Ready to Transform Your <span>Business?</span></h2>
-        <p>
-          Join hundreds of successful businesses that have revolutionised their
-          operations with our cutting-edge technology solutions.
-        </p>
-        <div class="cta-actions">
-          <a href="#form" class="btn-green">
-            Start Your Project Today
-            <svg
-              width="16"
-              height="16"
-              viewBox="0 0 16 16"
-              fill="none"
-              stroke="currentColor"
-              stroke-width="2.5"
-              stroke-linecap="round"
-            >
-              <path d="M3 8h10M8 3l5 5-5 5" />
-            </svg>
-          </a>
-          <a href="#" class="btn-outline-white">Schedule Consultation</a>
-        </div>
-        <div class="cta-pills">
-          <span class="cta-pill">Free consultation</span>
-          <span class="cta-pill">No commitment required</span>
-          <span class="cta-pill">Response within 24 hours</span>
+        <div class="cta-inner">
+
+          <!-- LEFT: heading + description + pills -->
+          <div class="cta-left">
+            <div class="cta-badge">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+              Let's Build Together
+            </div>
+            <h2>Ready to Transform Your <span>Business?</span></h2>
+            <p>
+              Join hundreds of successful businesses that have revolutionized their
+              operations with our cutting-edge technology solutions.
+            </p>
+            <div class="cta-pills">
+              <span class="cta-pill">Free consultation</span>
+              <span class="cta-pill">No commitment required</span>
+              <span class="cta-pill">Response within 24 hours</span>
+            </div>
+          </div>
+
+          <!-- RIGHT: buttons + stats -->
+          <div class="cta-right">
+            <div class="cta-actions">
+              <a href="#form" class="btn-green">
+                Start Your Project Today
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                  <path d="M3 8h10M8 3l5 5-5 5" />
+                </svg>
+              </a>
+              <NuxtLink to="/consultancy" class="btn-outline-white">Schedule Consultation</NuxtLink>
+            </div>
+            <div class="cta-stats">
+              <div class="cta-stat">
+                <span class="cta-stat-num">200+</span>
+                <span class="cta-stat-label">Projects Delivered</span>
+              </div>
+              <div class="cta-stat-divider"></div>
+              <div class="cta-stat">
+                <span class="cta-stat-num">98%</span>
+                <span class="cta-stat-label">Client Satisfaction</span>
+              </div>
+              <div class="cta-stat-divider"></div>
+              <div class="cta-stat">
+                <span class="cta-stat-num">24h</span>
+                <span class="cta-stat-label">Response Time</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

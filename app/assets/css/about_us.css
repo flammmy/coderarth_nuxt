@@ -1,24 +1,31 @@
   /* ── HERO ── */
     .hero {
       min-height: 100vh;
-      background: var(--ink);
+      background: #0f172a;
       display: flex; align-items: center;
       position: relative;
       overflow: hidden;
       padding-top: 80px;
     }
-    .hero-bg-lines {
-      position: absolute; inset: 0; pointer-events: none;
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 60% 55% at 20% 50%, rgba(26, 86, 219, 0.35) 0%, transparent 70%),
+        radial-gradient(ellipse 50% 45% at 80% 40%, rgba(16, 185, 129, 0.25) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero::after {
+      content: "";
+      position: absolute;
+      inset: 0;
       background-image:
-        linear-gradient(rgba(26,86,219,0.07) 1px, transparent 1px),
-        linear-gradient(90deg, rgba(26,86,219,0.07) 1px, transparent 1px);
-      background-size: 60px 60px;
+        linear-gradient(rgba(59, 130, 246, 0.08) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(59, 130, 246, 0.08) 1px, transparent 1px);
+      background-size: 48px 48px;
+      pointer-events: none;
     }
-    .hero-glow {
-      position: absolute; border-radius: 50%; filter: blur(80px); pointer-events: none;
-    }
-    .hero-glow-1 { width: 500px; height: 500px; background: rgba(26,86,219,0.25); top: -100px; right: -100px; }
-    .hero-glow-2 { width: 350px; height: 350px; background: rgba(16,185,129,0.15); bottom: 50px; left: -80px; }
     .hero-pill {
       display: inline-flex; align-items: center; gap: 8px;
       background: rgba(255,255,255,0.07); border: 1px solid rgba(255,255,255,0.15);

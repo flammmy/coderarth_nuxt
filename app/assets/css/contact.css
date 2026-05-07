@@ -19,6 +19,7 @@
   z-index: 1;
   max-width: 680px;
   margin: 0 auto;
+  margin-top: 40px;
 }
 
 .contact-hero::before {
@@ -735,9 +736,84 @@ textarea {
   background: var(--gray-900);
   border-radius: 24px;
   padding: 72px 64px;
-  text-align: center;
   position: relative;
   overflow: hidden;
+}
+
+.cta-inner {
+  display: flex;
+  align-items: center;
+  gap: 64px;
+  position: relative;
+  z-index: 1;
+}
+
+.cta-left {
+  flex: 1;
+}
+
+.cta-right {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 20px;
+  min-width: 300px;
+}
+
+.cta-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  background: rgba(16, 185, 129, 0.12);
+  border: 1px solid rgba(16, 185, 129, 0.25);
+  color: var(--green);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 6px 14px;
+  border-radius: 99px;
+  margin-bottom: 20px;
+}
+
+.cta-stats {
+  display: flex;
+  align-items: center;
+  gap: 0;
+  padding: 20px 24px;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 14px;
+}
+
+.cta-stat {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+}
+
+.cta-stat-num {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--white);
+  line-height: 1;
+}
+
+.cta-stat-label {
+  font-size: 0.68rem;
+  color: rgba(255, 255, 255, 0.35);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.cta-stat-divider {
+  width: 1px;
+  height: 36px;
+  background: rgba(255, 255, 255, 0.1);
+  flex-shrink: 0;
 }
 
 .cta-banner::before {
@@ -771,24 +847,12 @@ textarea {
   );
 }
 
-.cta-orb {
-  width: 64px;
-  height: 64px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--blue-light), var(--green));
-  margin: 0 auto 28px;
-  position: relative;
-  z-index: 1;
-}
-
 .cta-banner h2 {
   font-family: "Syne", sans-serif;
-  font-size: clamp(1.8rem, 3.5vw, 2.8rem);
+  font-size: clamp(1.8rem, 3vw, 2.6rem);
   font-weight: 800;
   color: var(--white);
   margin-bottom: 16px;
-  position: relative;
-  z-index: 1;
 }
 
 .cta-banner h2 span {
@@ -800,19 +864,13 @@ textarea {
   color: rgba(255, 255, 255, 0.5);
   line-height: 1.75;
   max-width: 480px;
-  margin: 0 auto 36px;
-  position: relative;
-  z-index: 1;
+  margin-bottom: 28px;
 }
 
 .cta-actions {
   display: flex;
-  gap: 14px;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-bottom: 24px;
-  position: relative;
-  z-index: 1;
+  flex-direction: column;
+  gap: 12px;
 }
 
 .btn-green {
@@ -865,10 +923,7 @@ textarea {
 .cta-pills {
   display: flex;
   gap: 20px;
-  justify-content: center;
   flex-wrap: wrap;
-  position: relative;
-  z-index: 1;
 }
 
 .cta-pill {
@@ -938,6 +993,18 @@ textarea {
   }
   .cta-banner {
     padding: 48px 24px;
+  }
+  .cta-inner {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .cta-right {
+    width: 100%;
+    min-width: unset;
+  }
+  .btn-green,
+  .btn-outline-white {
+    justify-content: center;
   }
 }
 

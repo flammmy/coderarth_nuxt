@@ -15,8 +15,6 @@ onMounted(() => {
     <div>
         <!-- HERO -->
         <section class="hero">
-            <div class="hero-glow hero-glow-1"></div>
-            <div class="hero-glow hero-glow-2"></div>
             <div class="container position-relative" style="z-index:2;">
                 <div class="row align-items-center gy-5">
                     <div class="col-lg-7">
@@ -32,7 +30,7 @@ onMounted(() => {
                             delivering custom web applications, mobile apps, enterprise software, and cloud solutions.
                         </p>
                         <div class="hero-actions">
-                            <a href="#" class="btn-primary-hero">Start a Project</a>
+                            <NuxtLink to="/consultancy" class="btn-primary-hero">Start a Project</NuxtLink>
                             <a href="#team" class="btn-ghost-hero">Meet the Team</a>
                         </div>
                         <div class="hero-stats">
@@ -361,7 +359,7 @@ onMounted(() => {
                     helps startups, enterprises, and organizations build scalable web applications, mobile apps,
                     enterprise systems, and cloud-based solutions tailored to real business needs.</p>
                 <div class="d-flex gap-3 justify-content-center flex-wrap">
-                    <a href="#" class="btn-primary-hero">Start Your Project</a>
+                    <NuxtLink to="/consultancy" class="btn-primary-hero">Start Your Project</NuxtLink>
                     <a href="#team" class="btn-ghost-hero">Talk to Our Team</a>
                 </div>
             </div>
