@@ -108,7 +108,7 @@
           </div>
         </li>
 
-        <li><a href="#">Blog</a></li>
+        <li><NuxtLink to="/blog">Blog</NuxtLink></li>
         <li><NuxtLink to="/contact">Contact Us</NuxtLink></li>
       </ul>
 
@@ -213,7 +213,7 @@
           </div>
         </div>
 
-        <a href="#" class="mobile-link" @click="mobileMenuOpen = false">Blog</a>
+        <NuxtLink to="/blog" class="mobile-link" @click="mobileMenuOpen = false">Blog</NuxtLink>
         <NuxtLink to="/contact" class="mobile-link" @click="mobileMenuOpen = false">Contact Us</NuxtLink>
       </div>
 

@@ -56,7 +56,7 @@
                                 <a href="#" class="ft-link">Careers</a>
                                 <a href="#" class="ft-link">Tools &amp; Technologies</a>
                                 <a href="#" class="ft-link">Portfolio</a>
-                                <a href="#" class="ft-link">Blog</a>
+                                <NuxtLink to="/blog" class="ft-link">Blog</NuxtLink>
                             </div>
                         </div>
 

@@ -342,232 +342,252 @@
 
         <div class="section-label text-center">
           <span
-            style="font-size:13px;color:var(--color-text-secondary);letter-spacing:0.05em;text-transform:uppercase;">Scroll
-            to explore our services</span>
+            style="font-size:13px;color:var(--color-text-secondary);letter-spacing:0.05em;text-transform:uppercase;">Explore
+            our services</span>
         </div>
 
         <div class="scroll-section">
-          <button class="scroll-btn left"
-            onclick="document.getElementById('svcRow').scrollBy({left:-270,behavior:'smooth'})"><span>&#8249;</span></button>
+          <button class="scroll-btn left" @click="svcPrev"><span>&#8249;</span></button>
 
-          <div id="svcRow" class="svc-scroll-row">
-
-            <NuxtLink to="/web_dev_service" class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Web Development</h3>
-              <p class="svc-card-desc">We build fast, responsive, and user-friendly websites tailored to your business
-                needs. From business websites to custom platforms, we focus on performance, design, and scalability.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>React</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>PHP</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>JavaScript</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Stack</div>
-                  <div class="svc-card-stack-value">React, PHP, JavaScript</div>
+          <Swiper
+            class="svc-swiper"
+            :space-between="24"
+            :slides-per-view="1.15"
+            :breakpoints="svcBreakpoints"
+            @swiper="onSvcSwiper"
+          >
+            <SwiperSlide>
+              <NuxtLink to="/web_dev_service" class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-code"></i></div>
+                  <span class="svc-card-badge">Web Dev</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </NuxtLink>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Mobile App Dev</h3>
-              <p class="svc-card-desc">We develop modern, scalable mobile and web applications that improve user
-                experience and support business growth. Our apps are built for performance, usability, and long-term
-                success.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Flutter</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>React Native</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Stack</div>
-                  <div class="svc-card-stack-value">Flutter, React Native</div>
+                <h3 class="svc-card-title">Web Development</h3>
+                <p class="svc-card-desc">We build fast, responsive, and user-friendly websites tailored to your business
+                  needs. From business websites to custom platforms, we focus on performance, design, and scalability.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>React</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>PHP</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>JavaScript</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-chart-line"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Digital Marketing & Social Media</h3>
-              <p class="svc-card-desc">Grow your online visibility with strategic digital marketing and social media
-                management. We help you reach the right audience, increase engagement, and generate quality leads.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>SEO</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>SEM</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Analytics</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Specialties</div>
-                  <div class="svc-card-stack-value">SEO, SEM, Social Media</div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Stack</div>
+                    <div class="svc-card-stack-value">React, PHP, JavaScript</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
+              </NuxtLink>
+            </SwiperSlide>
 
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-database"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Database Management</h3>
-              <p class="svc-card-desc">Efficient database design, optimization, and maintenance ensuring data security
-                and scalability.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>MySQL</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>PostgreSQL</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Technologies</div>
-                  <div class="svc-card-stack-value">MySQL, PostgreSQL</div>
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-mobile-screen"></i></div>
+                  <span class="svc-card-badge">Mobile</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Software Development</h3>
-              <p class="svc-card-desc">Custom software solutions to streamline operations and meet unique business
-                requirements.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Java</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>.NET</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Python</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Stack</div>
-                  <div class="svc-card-stack-value">Java, .NET, Python</div>
+                <h3 class="svc-card-title">Mobile App Dev</h3>
+                <p class="svc-card-desc">We develop modern, scalable mobile and web applications that improve user
+                  experience and support business growth. Our apps are built for performance, usability, and long-term
+                  success.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Flutter</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>React Native</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-gears"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Custom ERP Solution</h3>
-              <p class="svc-card-desc">Tailor-made ERP systems to integrate and automate core business processes like
-                finance, HR, and inventory.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>HR</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Finance</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Inventory</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Modules</div>
-                  <div class="svc-card-stack-value">HR, Finance, Inventory</div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Stack</div>
+                    <div class="svc-card-stack-value">Flutter, React Native</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
-            </div>
+            </SwiperSlide>
 
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-users"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Custom CRM</h3>
-              <p class="svc-card-desc">Streamline your business operations with a custom CRM built specifically for your
-                workflow. Manage leads, clients, sales, and team activities efficiently in one place.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Lead Mgmt</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Automation</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Features</div>
-                  <div class="svc-card-stack-value">Lead Mgmt, Automation</div>
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-chart-line"></i></div>
+                  <span class="svc-card-badge">Marketing</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-pen-ruler"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Website Designing</h3>
-              <p class="svc-card-desc">Creative, user-friendly website designs focused on great user experience and
-                strong brand identity.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Figma</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Adobe XD</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Tools</div>
-                  <div class="svc-card-stack-value">Figma, Adobe XD</div>
+                <h3 class="svc-card-title">Digital Marketing & Social Media</h3>
+                <p class="svc-card-desc">Grow your online visibility with strategic digital marketing and social media
+                  management. We help you reach the right audience, increase engagement, and generate quality leads.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>SEO</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>SEM</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Analytics</span>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
-              </div>
-            </div>
-
-            <div class="svc-card">
-              <div class="svc-card-accent-line"></div>
-              <div class="svc-card-top">
-                <div class="svc-card-icon"><i class="fa-solid fa-building"></i></div>
-                <span class="svc-card-badge">Service</span>
-              </div>
-              <h3 class="svc-card-title">Enterprise Solutions</h3>
-              <p class="svc-card-desc">Scalable enterprise-grade applications for complex workflows, large data volumes,
-                and organizational needs.</p>
-              <div class="svc-card-divider"></div>
-              <div class="svc-card-tags">
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Cloud</span>
-                <span class="svc-tag"><span class="svc-tag-dot"></span>Microservices</span>
-              </div>
-              <div class="svc-card-footer">
-                <div>
-                  <div class="svc-card-stack-label">Solutions</div>
-                  <div class="svc-card-stack-value">Cloud, Microservices</div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Specialties</div>
+                    <div class="svc-card-stack-value">SEO, SEM, Social Media</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
                 </div>
-                <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
               </div>
-            </div>
+            </SwiperSlide>
 
-          </div>
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-database"></i></div>
+                  <span class="svc-card-badge">Database</span>
+                </div>
+                <h3 class="svc-card-title">Database Management</h3>
+                <p class="svc-card-desc">Efficient database design, optimization, and maintenance ensuring data security
+                  and scalability.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>MySQL</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>PostgreSQL</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Technologies</div>
+                    <div class="svc-card-stack-value">MySQL, PostgreSQL</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
 
-          <button class="scroll-btn right"
-            onclick="document.getElementById('svcRow').scrollBy({left:270,behavior:'smooth'})"><span>&#8250;</span></button>
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-laptop-code"></i></div>
+                  <span class="svc-card-badge">Software</span>
+                </div>
+                <h3 class="svc-card-title">Software Development</h3>
+                <p class="svc-card-desc">Custom software solutions to streamline operations and meet unique business
+                  requirements.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Java</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>.NET</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Python</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Stack</div>
+                    <div class="svc-card-stack-value">Java, .NET, Python</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-gears"></i></div>
+                  <span class="svc-card-badge">ERP</span>
+                </div>
+                <h3 class="svc-card-title">Custom ERP Solution</h3>
+                <p class="svc-card-desc">Tailor-made ERP systems to integrate and automate core business processes like
+                  finance, HR, and inventory.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>HR</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Finance</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Inventory</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Modules</div>
+                    <div class="svc-card-stack-value">HR, Finance, Inventory</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-users"></i></div>
+                  <span class="svc-card-badge">CRM</span>
+                </div>
+                <h3 class="svc-card-title">Custom CRM</h3>
+                <p class="svc-card-desc">Streamline your business operations with a custom CRM built specifically for your
+                  workflow. Manage leads, clients, sales, and team activities efficiently in one place.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Lead Mgmt</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Automation</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Features</div>
+                    <div class="svc-card-stack-value">Lead Mgmt, Automation</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-pen-ruler"></i></div>
+                  <span class="svc-card-badge">UI / UX</span>
+                </div>
+                <h3 class="svc-card-title">Website Designing</h3>
+                <p class="svc-card-desc">Creative, user-friendly website designs focused on great user experience and
+                  strong brand identity.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Figma</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Adobe XD</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Tools</div>
+                    <div class="svc-card-stack-value">Figma, Adobe XD</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div class="svc-card">
+                <div class="svc-card-accent-line"></div>
+                <div class="svc-card-top">
+                  <div class="svc-card-icon"><i class="fa-solid fa-building"></i></div>
+                  <span class="svc-card-badge">Enterprise</span>
+                </div>
+                <h3 class="svc-card-title">Enterprise Solutions</h3>
+                <p class="svc-card-desc">Scalable enterprise-grade applications for complex workflows, large data volumes,
+                  and organizational needs.</p>
+                <div class="svc-card-divider"></div>
+                <div class="svc-card-tags">
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Cloud</span>
+                  <span class="svc-tag"><span class="svc-tag-dot"></span>Microservices</span>
+                </div>
+                <div class="svc-card-footer">
+                  <div>
+                    <div class="svc-card-stack-label">Solutions</div>
+                    <div class="svc-card-stack-value">Cloud, Microservices</div>
+                  </div>
+                  <div class="svc-card-arrow"><i class="fa-solid fa-arrow-right"></i></div>
+                </div>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+
+          <button class="scroll-btn right" @click="svcNext"><span>&#8250;</span></button>
         </div>
 
       </div>
@@ -2247,3 +2267,59 @@
     </div>
   </section>
 </template>
+
+<script setup>
+import { Swiper, SwiperSlide } from 'swiper/vue'
+
+const svcSwiperRef = ref(null)
+
+function onSvcSwiper(swiper) {
+  svcSwiperRef.value = swiper
+}
+
+function svcPrev() {
+  svcSwiperRef.value?.slidePrev()
+}
+
+function svcNext() {
+  svcSwiperRef.value?.slideNext()
+}
+
+const svcBreakpoints = {
+  480:  { slidesPerView: 1.5,  spaceBetween: 16 },
+  640:  { slidesPerView: 2,    spaceBetween: 20 },
+  1024: { slidesPerView: 3,    spaceBetween: 24 },
+  1280: { slidesPerView: 4,    spaceBetween: 24 },
+}
+</script>
+
+<style>
+/* ── Swiper services carousel overrides ── */
+.svc-swiper {
+  width: 100%;
+  overflow: hidden;
+}
+
+.svc-swiper .swiper-slide {
+  height: auto;
+}
+
+/* Let Swiper control width; remove the fixed min/max from individual cards */
+.svc-swiper .swiper-slide .svc-card,
+.svc-swiper .swiper-slide > a.svc-card {
+  min-width: unset;
+  max-width: unset;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Mobile: reduce side padding on the scroll-section wrapper */
+@media (max-width: 480px) {
+  .scroll-section {
+    padding: 0 32px;
+  }
+}
+</style>

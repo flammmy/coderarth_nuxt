@@ -866,6 +866,7 @@ nav {
 }
 
 .hero-headline .highlight {
+  font-size: 0.78em;
   background: linear-gradient(135deg, var(--blue) 0%, var(--green) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -2219,26 +2220,8 @@ nav {
   color: rgba(0, 0, 0, 0.386);
 }
 
-.svc-scroll-row {
-  display: flex;
-  gap: 56px;
-  overflow-x: auto;
-  padding-bottom: 12px;
-  scroll-snap-type: x mandatory;
-  -webkit-overflow-scrolling: touch;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.svc-scroll-row::-webkit-scrollbar {
-  display: none;
-}
-
 /* ── Card shell ─────────────────────────────────────────── */
 .svc-card {
-  min-width: 252px;
-  max-width: 278px;
-  flex-shrink: 0;
   background: var(--white);
   border-radius: var(--radius-lg);
   border: 1px solid #07cc07;
@@ -2490,11 +2473,11 @@ nav {
 
 @media (max-width: 576px) {
   .scroll-section {
-    padding: 0 36px;
+    padding: 0 32px;
   }
 
   .svc-card {
-    min-width: 210px;
+    min-width: unset;
   }
 }
 
