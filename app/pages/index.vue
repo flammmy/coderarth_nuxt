@@ -342,8 +342,10 @@
 
         <div class="section-label text-center">
           <span
-            style="font-size:13px;color:var(--color-text-secondary);letter-spacing:0.05em;text-transform:uppercase;">Explore
-            our services</span>
+            style="font-size:22px;font-weight:700;color:var(--color-text-primary, #0f172a);letter-spacing:0;text-transform:none;font-family:'Syne',sans-serif;">Explore Our Services</span>
+          <p style="margin:6px 0 0;font-size:0.88rem;color:var(--color-text-secondary);line-height:1.6;">
+            From web development to AI automation — everything your business needs under one roof.
+          </p>
         </div>
 
         <div class="scroll-section">
@@ -588,6 +590,13 @@
           </Swiper>
 
           <button class="scroll-btn right" @click="svcNext"><span>&#8250;</span></button>
+        </div>
+
+        <div style="text-align:center;margin-top:36px;">
+          <NuxtLink to="/services" class="svc-explore-btn">
+            Explore All Services
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+          </NuxtLink>
         </div>
 
       </div>
@@ -2294,6 +2303,30 @@ const svcBreakpoints = {
 </script>
 
 <style>
+/* ── Explore All Services button ── */
+.svc-explore-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  background: #1d4ed8;
+  color: #fff;
+  font-family: 'Syne', sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  padding: 13px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 4px 18px rgba(29, 78, 216, 0.32);
+  transition: background 0.22s, transform 0.22s, box-shadow 0.22s, gap 0.22s;
+}
+
+.svc-explore-btn:hover {
+  background: #1e40af;
+  transform: translateY(-3px);
+  box-shadow: 0 10px 32px rgba(29, 78, 216, 0.42);
+  gap: 14px;
+}
+
 /* ── Swiper services carousel overrides ── */
 .svc-swiper {
   width: 100%;

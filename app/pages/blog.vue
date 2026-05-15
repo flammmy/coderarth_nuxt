@@ -293,36 +293,64 @@
       </div>
     </section>
 
-    <!-- ═══ NEWSLETTER ═══ -->
-    <section class="newsletter-section">
-      <div class="newsletter-banner">
-        <div class="newsletter-inner">
-          <div class="newsletter-badge">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
-              <polyline points="22,6 12,13 2,6"/>
-            </svg>
-            Newsletter
-          </div>
-          <h2>Never Miss an <span>Insight</span></h2>
-          <p>
-            Get the best articles on software development, cloud, AI, and design
-            delivered straight to your inbox — no spam, unsubscribe any time.
-          </p>
-          <div class="newsletter-form">
-            <input
-              class="newsletter-input"
-              type="email"
-              placeholder="your@email.com"
-            />
-            <button class="btn-newsletter">
-              Subscribe
-              <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
-                <path d="M2 7h10M7 2l5 5-5 5" />
+    <!-- ═══ CTA ═══ -->
+    <section class="blog-cta-section">
+      <div class="blog-cta-banner">
+        <div class="blog-cta-inner">
+
+          <div class="blog-cta-left">
+            <div class="blog-cta-badge">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
               </svg>
-            </button>
+              Let's Build Together
+            </div>
+            <h2>Ready to Transform Your <span>Business?</span></h2>
+            <p>
+              Join hundreds of successful businesses that have revolutionised their
+              operations with our cutting-edge technology solutions.
+            </p>
+            <div class="blog-cta-pills">
+              <span class="blog-cta-pill">Free consultation</span>
+              <span class="blog-cta-pill">No commitment required</span>
+              <span class="blog-cta-pill">Response within 24 hours</span>
+            </div>
           </div>
-          <p class="newsletter-note">Join 10,000+ developers. No spam — we promise.</p>
+
+          <div class="blog-cta-right">
+            <div class="blog-cta-actions">
+              <NuxtLink to="/contact" class="blog-btn-green">
+                Start Your Project Today
+                <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                  <path d="M3 8h10M8 3l5 5-5 5" />
+                </svg>
+              </NuxtLink>
+              <NuxtLink to="/consultancy" class="blog-btn-outline-white">Schedule Consultation</NuxtLink>
+              <NuxtLink to="/services" class="blog-btn-outline-white">
+                View All Services
+                <svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                  <path d="M2 7h10M7 2l5 5-5 5" />
+                </svg>
+              </NuxtLink>
+            </div>
+            <div class="blog-cta-stats">
+              <div class="blog-cta-stat">
+                <span class="blog-cta-stat-num">200+</span>
+                <span class="blog-cta-stat-label">Projects Delivered</span>
+              </div>
+              <div class="blog-cta-stat-divider"></div>
+              <div class="blog-cta-stat">
+                <span class="blog-cta-stat-num">98%</span>
+                <span class="blog-cta-stat-label">Client Satisfaction</span>
+              </div>
+              <div class="blog-cta-stat-divider"></div>
+              <div class="blog-cta-stat">
+                <span class="blog-cta-stat-num">24h</span>
+                <span class="blog-cta-stat-label">Response Time</span>
+              </div>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

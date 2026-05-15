@@ -92,7 +92,7 @@
             </svg>
           </div>
           <div class="info-card-title">Office Location</div>
-          <div class="info-card-val">Lucknow, Uttar Pradesh, India</div>
+          <div class="info-card-val">614, Saadatganj, Lucknow, Uttar Pradesh, India, 226003</div>
         </div>
 
         <div class="info-card">
@@ -478,6 +478,161 @@
             <path d="M2 7h10M7 2l5 5-5 5" />
           </svg>
         </a>
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="row g-5">
+
+          <div class="col-lg-4">
+            <div class="faq-left">
+              <div class="label-tag">FAQ</div>
+              <h2>Find Questions<br>&amp; <span class="accent">Answers.</span></h2>
+              <p>Don't find the answer you need? Our team is here to help you with anything from project scoping to technical consultation.</p>
+              <NuxtLink to="/contact" class="contact-btn">
+                Contact Us
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </NuxtLink>
+              <div class="stats-row">
+                <div class="stat-item">
+                  <div class="stat-num">200<span>+</span></div>
+                  <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">98<span>%</span></div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">8<span>+</span></div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="faq-right">
+
+              <div class="faq-item open">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">How can I start a project with your company?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Simply contact us through our website, email, or phone. We'll schedule a consultation to understand your requirements, goals, and budget. After that, we'll share a proposal with timeline, scope, and cost. Once approved, the project begins.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">What services do you provide?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    We offer a range of digital services including <span class="pill">Website Design &amp; Development</span> <span class="pill">CRM Software Development</span> <span class="pill">Digital Marketing</span> and <span class="pill">Custom Software Solutions</span>. Each service is tailored to meet your business needs.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">How do you handle project pricing and payments?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Project pricing depends on scope, complexity, and timeline. We follow a milestone-based payment structure: <span class="pill">Advance payment</span> to start the project, <span class="pill">Mid-phase payment</span> based on progress, and <span class="pill">Final payment</span> before delivery.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">How can I get a project from you or collaborate?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    If you're a client, you can directly reach out to us with your requirements. If you're looking to collaborate or outsource work, contact us with your portfolio and expertise. We evaluate partnerships based on quality and reliability.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">What is your project policy?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Our project policy ensures transparency and smooth execution. A clear scope of work is defined before starting, timelines are mutually agreed upon, and regular updates are provided throughout. Any additional features outside scope may require extra cost.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">Do you offer revisions or changes during the project?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Yes, we provide a limited number of revisions as per the agreed scope. Additional changes or major modifications beyond the initial requirements may involve extra charges and timeline adjustments.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">What is your refund policy?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Advance payments are generally non-refundable once the project has started. If the project is canceled before work begins, a partial refund may be issued. No refund is applicable after significant work has been completed. Refund terms are clearly mentioned in the agreement before starting.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
       </div>
     </section>
 

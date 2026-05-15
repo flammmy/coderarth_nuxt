@@ -105,8 +105,79 @@ function toggleService(row) {
       </div>
     </section>
 
+    <!-- ═══ PRICING ═══ -->
+    <section class="pricing-section">
+      <div class="pricing-inner">
+        <div class="section-header" style="justify-content: center; text-align: center">
+          <div class="section-header-left" style="max-width: 560px; margin: 0 auto">
+            <div class="section-eyebrow">Pricing</div>
+            <h2 class="section-title">Transparent, <span class="hi">Flat-Rate</span> Packages</h2>
+            <p style="font-size: 0.9rem; color: var(--gray-400); margin-top: 14px; line-height: 1.7;">
+              No hourly billing surprises. Choose a package or get a custom quote for your specific scope.
+            </p>
+          </div>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="price-card">
+            <div class="price-tag-wrap"><span class="price-tag">Starter</span></div>
+            <div class="price-amount"><sup>₹</sup>49,999<span>/project</span></div>
+            <div>
+              <div class="price-name">Business Website</div>
+              <p class="price-desc">Perfect for early-stage startups and SMBs needing a professional online presence fast.</p>
+            </div>
+            <div class="price-divider"></div>
+            <div class="price-features">
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Up to 8 pages</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Next.js + Headless CMS</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Mobile responsive</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Basic SEO setup</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>30-day support</div>
+            </div>
+            <NuxtLink to="/contact" class="price-btn">Get Started →</NuxtLink>
+          </div>
+
+          <div class="price-card featured">
+            <div class="price-tag-wrap"><span class="price-tag">Growth</span><span class="popular-badge">Most Popular</span></div>
+            <div class="price-amount"><sup>₹</sup>1,49,999<span>/project</span></div>
+            <div>
+              <div class="price-name">Web Application</div>
+              <p class="price-desc">For growing businesses that need a custom web app with backend, auth, and integrations.</p>
+            </div>
+            <div class="price-divider"></div>
+            <div class="price-features">
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Full-stack React + Node.js</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Custom auth + dashboard</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>REST API + integrations</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>AWS / Vercel deployment</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>90-day support + SLA</div>
+            </div>
+            <NuxtLink to="/contact" class="price-btn">Get Started →</NuxtLink>
+          </div>
+
+          <div class="price-card">
+            <div class="price-tag-wrap"><span class="price-tag">Enterprise</span></div>
+            <div class="price-amount">Custom<span> quote</span></div>
+            <div>
+              <div class="price-name">Scale &amp; Enterprise</div>
+              <p class="price-desc">Complex platforms, dedicated teams, and ongoing development partnerships for scaling businesses.</p>
+            </div>
+            <div class="price-divider"></div>
+            <div class="price-features">
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Dedicated team (3–8 devs)</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Microservices architecture</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>CI/CD + DevOps setup</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>24/7 monitoring + on-call</div>
+              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Flexible retainer billing</div>
+            </div>
+            <NuxtLink to="/contact" class="price-btn">Talk to Us →</NuxtLink>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- ═══ SERVICES ═══ -->
-    <section class="services-section">
+    <!-- <section class="services-section">
       <div class="section-header">
         <div class="section-header-left">
           <div class="section-eyebrow">Core Services</div>
@@ -213,7 +284,7 @@ function toggleService(row) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ═══ PROCESS ═══ -->
     <section class="process-section">
@@ -264,7 +335,7 @@ function toggleService(row) {
     </section>
 
     <!-- ═══ TECH STACK ═══ -->
-    <section class="stack-section">
+    <!-- <section class="stack-section">
       <div class="stack-inner">
         <div class="section-header">
           <div class="section-header-left">
@@ -323,10 +394,10 @@ function toggleService(row) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ═══ PORTFOLIO ═══ -->
-    <section class="portfolio-section" id="portfolio">
+    <!-- <section class="portfolio-section" id="portfolio">
       <div class="portfolio-inner">
         <div class="section-header">
           <div class="section-header-left">
@@ -392,10 +463,10 @@ function toggleService(row) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- ═══ WHY US ═══ -->
-    <section class="why-section">
+    <!-- <section class="why-section">
       <div class="why-inner">
         <div class="section-header">
           <div class="section-header-left">
@@ -450,84 +521,14 @@ function toggleService(row) {
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
-    <!-- ═══ PRICING ═══ -->
-    <section class="pricing-section">
-      <div class="pricing-inner">
-        <div class="section-header" style="justify-content: center; text-align: center">
-          <div class="section-header-left" style="max-width: 560px; margin: 0 auto">
-            <div class="section-eyebrow">Pricing</div>
-            <h2 class="section-title">Transparent, <span class="hi">Flat-Rate</span> Packages</h2>
-            <p style="font-size: 0.9rem; color: var(--gray-400); margin-top: 14px; line-height: 1.7;">
-              No hourly billing surprises. Choose a package or get a custom quote for your specific scope.
-            </p>
-          </div>
-        </div>
-
-        <div class="pricing-grid">
-          <div class="price-card">
-            <div class="price-tag-wrap"><span class="price-tag">Starter</span></div>
-            <div class="price-amount"><sup>₹</sup>49,999<span>/project</span></div>
-            <div>
-              <div class="price-name">Business Website</div>
-              <p class="price-desc">Perfect for early-stage startups and SMBs needing a professional online presence fast.</p>
-            </div>
-            <div class="price-divider"></div>
-            <div class="price-features">
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Up to 8 pages</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Next.js + Headless CMS</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Mobile responsive</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Basic SEO setup</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>30-day support</div>
-            </div>
-            <NuxtLink to="/contact" class="price-btn">Get Started →</NuxtLink>
-          </div>
-
-          <div class="price-card featured">
-            <div class="price-tag-wrap"><span class="price-tag">Growth</span><span class="popular-badge">Most Popular</span></div>
-            <div class="price-amount"><sup>₹</sup>1,49,999<span>/project</span></div>
-            <div>
-              <div class="price-name">Web Application</div>
-              <p class="price-desc">For growing businesses that need a custom web app with backend, auth, and integrations.</p>
-            </div>
-            <div class="price-divider"></div>
-            <div class="price-features">
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Full-stack React + Node.js</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Custom auth + dashboard</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>REST API + integrations</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>AWS / Vercel deployment</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#34d399" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>90-day support + SLA</div>
-            </div>
-            <NuxtLink to="/contact" class="price-btn">Get Started →</NuxtLink>
-          </div>
-
-          <div class="price-card">
-            <div class="price-tag-wrap"><span class="price-tag">Enterprise</span></div>
-            <div class="price-amount">Custom<span> quote</span></div>
-            <div>
-              <div class="price-name">Scale &amp; Enterprise</div>
-              <p class="price-desc">Complex platforms, dedicated teams, and ongoing development partnerships for scaling businesses.</p>
-            </div>
-            <div class="price-divider"></div>
-            <div class="price-features">
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Dedicated team (3–8 devs)</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Microservices architecture</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>CI/CD + DevOps setup</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>24/7 monitoring + on-call</div>
-              <div class="pf-item"><div class="pf-check"><svg viewBox="0 0 10 10" fill="none" stroke="#059669" stroke-width="2" stroke-linecap="round"><path d="M2 5l2 2 4-4" /></svg></div>Flexible retainer billing</div>
-            </div>
-            <NuxtLink to="/contact" class="price-btn">Talk to Us →</NuxtLink>
-          </div>
-        </div>
-      </div>
-    </section>
+    
 
     <!-- ═══ CTA ═══ -->
     <section class="cta-section">
       <div class="cta-banner">
         <div class="cta-left">
-          <div class="cta-tag">Free Consultation</div>
           <h2 class="cta-title">Ready to Build Something<br /><span>That Actually Grows?</span></h2>
           <p class="cta-desc">Book a free 30-minute strategy call. We'll scope your project, suggest the right tech, and give you a ballpark budget — no strings attached.</p>
         </div>
@@ -537,6 +538,255 @@ function toggleService(row) {
             <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"><path d="M3 8h10M8 3l5 5-5 5" /></svg>
           </NuxtLink>
           <a href="#portfolio" class="btn-outline-white">View Portfolio</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══ EDITORIAL ═══ -->
+    <section class="wd-editorial-section">
+      <div class="wd-editorial-inner">
+
+        <h1 class="wd-ed-h1">Professional Web Development Services for Every Business</h1>
+        <p class="wd-ed-subtitle">Scalable, high-performance websites and web apps — built to grow with you.</p>
+        <div class="wd-ed-rule"></div>
+
+        <p class="wd-ed-body">
+          Whether you are a startup launching your first product or an established brand looking to modernise your digital presence, CoderArth delivers web development solutions that are engineered for speed, scalability, and measurable business outcomes. We combine technical excellence with strategic thinking to build web experiences that work as hard as you do.
+        </p>
+
+        <h2 class="wd-ed-h2">A Full-Stack Partner Across Every Layer of the Web</h2>
+        <p class="wd-ed-body">
+          From pixel-perfect front-end interfaces built with React and Next.js to robust Node.js backends, REST APIs, and cloud deployments on AWS — our team handles the complete stack. We also cover CMS integration, e-commerce platforms, database architecture, and performance optimisation so you have a single point of accountability for your entire digital product.
+        </p>
+
+        <h3 class="wd-ed-h3">What Sets Our Web Development Process Apart</h3>
+        <p class="wd-ed-body">We follow a structured, transparent process that eliminates guesswork and keeps you in control at every stage:</p>
+        <ul class="wd-ed-list">
+          <li><strong>Discovery &amp; scoping:</strong> We map your goals, audience, and technical constraints before writing a single line of code.</li>
+          <li><strong>Design-first approach:</strong> High-fidelity Figma mockups and interactive prototypes are approved by you before development begins.</li>
+          <li><strong>Agile development sprints:</strong> Bi-weekly demos, real-time Slack access, and transparent milestone tracking throughout the build.</li>
+          <li><strong>Performance &amp; SEO baked in:</strong> Every project targets 90+ Lighthouse scores, Core Web Vitals compliance, and technical SEO from day one.</li>
+          <li><strong>Post-launch support:</strong> Dedicated maintenance plans, monitoring, and feature iterations to keep your product evolving after go-live.</li>
+        </ul>
+
+      </div>
+    </section>
+
+    <!-- ═══ FIND BY CITY ═══ -->
+    <section class="wd-city-section">
+      <div class="wd-city-inner">
+
+        <h2 class="wd-city-h2">Find Services by City</h2>
+        <p class="wd-city-subtitle">Serving businesses across India's top cities with expert web development teams.</p>
+        <div class="wd-city-rule"></div>
+
+        <div class="wd-city-grid">
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Mumbai
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Delhi
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Bangalore
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Hyderabad
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Chennai
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Pune
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Ahmedabad
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Kolkata
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Jaipur
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Surat
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Lucknow
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Nagpur
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Indore
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Chandigarh
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Bhopal
+          </a>
+          <a href="#" class="wd-city-item">
+            <svg class="wd-city-pin" viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z" fill="#22c55e"/></svg>
+            Web development services in Coimbatore
+          </a>
+        </div>
+
+        <NuxtLink to="/contact" class="wd-city-more">View More Cities →</NuxtLink>
+
+      </div>
+    </section>
+
+    <!-- ═══ FAQ ═══ -->
+    <section class="faq-section">
+      <div class="container">
+        <div class="row g-5">
+
+          <div class="col-lg-4">
+            <div class="faq-left">
+              <div class="label-tag">FAQ</div>
+              <h2>Find Questions<br>&amp; <span class="accent">Answers.</span></h2>
+              <p>Don't find the answer you need? Our team is here to help you with anything from project scoping to technical consultation.</p>
+              <NuxtLink to="/contact" class="contact-btn">
+                Contact Us
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M5 12h14M12 5l7 7-7 7" />
+                </svg>
+              </NuxtLink>
+              <div class="stats-row">
+                <div class="stat-item">
+                  <div class="stat-num">200<span>+</span></div>
+                  <div class="stat-label">Projects Delivered</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">98<span>%</span></div>
+                  <div class="stat-label">Client Satisfaction</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-num">8<span>+</span></div>
+                  <div class="stat-label">Years Experience</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="faq-right">
+
+              <div class="faq-item open">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">What web development services does CoderArth offer?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    CoderArth provides end-to-end web development services including custom website design, full-stack web application development, e-commerce solutions, CMS integration, API development, and ongoing maintenance. We specialise in React, Next.js, Node.js, and cloud deployments on AWS and Vercel.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">How long does it take to build a website?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Timelines vary by scope. A standard business website typically takes 3–5 weeks, while a full-stack web application can take 8–16 weeks. After our discovery call we provide a detailed project timeline broken into clear milestones before any work begins.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">How do you handle project pricing and payments?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    We use flat-rate, milestone-based pricing — no surprise hourly invoices. Payment is split into <span class="pill">Advance payment</span> to kick off the project, <span class="pill">Mid-phase payment</span> on design approval, and <span class="pill">Final payment</span> before the launch handover.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">Will my website be mobile-friendly and SEO-optimised?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Yes — mobile-first design and technical SEO are built into every project by default, not added as extras. We target 90+ Lighthouse scores, optimise Core Web Vitals, and set up structured data, sitemaps, and meta tags before handover.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">Do you provide support after the website launches?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    All packages include a post-launch support period (30 days for Starter, 90 days for Growth). Beyond that, we offer flexible maintenance retainers covering updates, security patches, performance monitoring, and feature additions.
+                  </div>
+                </div>
+              </div>
+
+              <div class="faq-item">
+                <button class="faq-question" onclick="toggleFaq(this)">
+                  <span class="faq-question-text">Do you offer revisions during development?</span>
+                  <span class="faq-icon">
+                    <svg viewBox="0 0 14 14" fill="none">
+                      <path d="M7 1v12M1 7h12" stroke-width="2" stroke-linecap="round" />
+                    </svg>
+                  </span>
+                </button>
+                <div class="faq-body">
+                  <div class="faq-body-inner">
+                    Yes, revisions are included at each milestone checkpoint — design, development, and QA. We hold a sign-off meeting at every stage so changes are addressed early. Major scope changes outside the original brief may affect timeline and cost, which we communicate transparently upfront.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

@@ -111,7 +111,7 @@
                                         </svg>
                                     </div>
                                     <div class="ft-contact-text">
-                                        <strong>Location</strong>Lucknow, Uttar Pradesh, India
+                                        <strong>Location</strong>614, Saadatganj, Lucknow, Uttar Pradesh, India, 226003
                                     </div>
                                 </div>
                                 <div class="ft-contact-item">

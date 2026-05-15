@@ -307,7 +307,7 @@ nav {
 
 .dropdown {
   position: absolute;
-  top: calc(100% + 1px);
+  top: calc(100% + 0px);
   left: 0;
   background: white;
   border: 1px solid #8e8e8e;
@@ -388,7 +388,7 @@ nav {
 .submenu {
   position: absolute;
   top: 0;
-  left: 105%;
+  left: 100%;
   background: white;
   border: 1px solid #8e8e8e;
   border-radius: 14px;
@@ -2191,7 +2191,7 @@ nav {
   height: 38px;
   border-radius: 50%;
   border: 1px solid var(--gray-200);
-  background: #1ff61747;
+  background: #2917f647;
   cursor: pointer;
   font-size: 30px;
   display: flex;
@@ -2224,7 +2224,7 @@ nav {
 .svc-card {
   background: var(--white);
   border-radius: var(--radius-lg);
-  border: 1px solid #07cc07;
+  border: 1px solid #2e07cc;
   overflow: hidden;
   padding: 0;
   display: flex;
@@ -2245,7 +2245,7 @@ nav {
 /* ── Top accent line (sweeps in on hover) ───────────────── */
 .svc-card-accent-line {
   height: 3px;
-  background: #07cc07;
+  background: #250abda1;
   width: 0;
   transition: width 0.35s ease;
   border-radius: 0 2px 2px 0;
@@ -2257,7 +2257,7 @@ nav {
 
 /* ── Coloured header zone ───────────────────────────────── */
 .svc-card-top {
-  background: #0fc00f;
+  background: #1900a5cd;
   padding: 20px 20px 16px;
   display: flex;
   align-items: flex-start;
@@ -2366,8 +2366,8 @@ nav {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  background: #78ff2d17;
-  border: 1px solid #07cc0740;
+  background: #6c2dff17;
+  border: 1px solid #0724ccee;
   border-radius: 6px;
   padding: 3px 9px;
   font-size: 12px;
