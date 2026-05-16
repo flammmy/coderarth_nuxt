@@ -7,7 +7,7 @@
                         <div class="col-12 col-md-6 col-lg-3 pe-lg-4 ft-col-spacing" style="margin-bottom: 36px">
                             <div class="ft-brand-logo">
                                 <div class="ft-logo-text">
-                                    <img src="/images/logo/black_logo.webp" alt="CodersArth Logo" class="ft-logo-img" width="200" />
+                                    <img src="/images/logo/white_logo.png" alt="CodersArth Logo" class="ft-logo-img" width="200" />
                                 </div>
                             </div>
                             <div class="ft-sub">Technologies</div>
