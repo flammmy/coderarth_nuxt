@@ -1,5 +1,14 @@
 <template>
   <section class="hero">
+    <div class="hero-bg-grid"></div>
+    <div class="hero-bg-blob-1"></div>
+    <div class="hero-bg-blob-2"></div>
+    <div class="hero-bg-blob-3"></div>
+    <div class="hero-bg-ring-1"></div>
+    <div class="hero-bg-ring-2"></div>
+    <div class="hero-bg-ring-3"></div>
+    <div class="hero-bg-ring-4"></div>
+    <div class="hero-bg-highlight"></div>
     <div class="grid-bg"><img src='/images/hero_bg.jpg' alt='Background Image' /></div>
 
     <div class="container-fluid px-0 w-100 hero-container">

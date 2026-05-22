@@ -105,6 +105,98 @@ function toggleService(row) {
       </div>
     </section>
 
+    <!-- ═══ SUBCATEGORIES ═══ -->
+    <section class="subcat-section">
+      <div class="subcat-inner">
+        <div class="section-header" style="justify-content: center; text-align: center; margin-bottom: 0;">
+          <div class="section-header-left" style="max-width: 600px; margin: 0 auto; align-items: center;">
+            <div class="section-eyebrow">Our Specialisations</div>
+            <h2 class="section-title">What Kind of Web Project<br /><span class="hi">Are You Building?</span></h2>
+          </div>
+        </div>
+
+        <div class="subcat-grid">
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-blue">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">E-Commerce Store</div>
+              <p class="subcat-card-desc">Custom storefronts, headless Shopify, and conversion-optimised product pages built for scale.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-green">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-building"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">Business Website</div>
+              <p class="subcat-card-desc">Professional multi-page sites with CMS, SEO, and mobile-first design — live in 3–5 weeks.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-indigo">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">Web Application</div>
+              <p class="subcat-card-desc">Full-stack React + Node.js apps with auth, dashboards, REST APIs, and cloud deployments.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-amber">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">Landing Page</div>
+              <p class="subcat-card-desc">High-converting single-page experiences designed to turn visitors into paying customers.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-purple">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-cloud"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">SaaS Platform</div>
+              <p class="subcat-card-desc">Scalable multi-tenant SaaS products with subscription billing, onboarding, and analytics built in.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+
+          <NuxtLink to="/web_dev_service" class="subcat-card sc-v-teal">
+            <div class="subcat-card-icon">
+              <i class="fa-solid fa-palette"></i>
+            </div>
+            <div class="subcat-card-content">
+              <div class="subcat-card-title">Portfolio & Branding</div>
+              <p class="subcat-card-desc">Stunning personal and agency portfolio sites that showcase your work and attract premium clients.</p>
+            </div>
+            <div class="subcat-card-arrow">
+              <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M2 7h10M7 2l5 5-5 5"/></svg>
+            </div>
+          </NuxtLink>
+        </div>
+      </div>
+    </section>
+
     <!-- ═══ PRICING ═══ -->
     <section class="pricing-section">
       <div class="pricing-inner">
